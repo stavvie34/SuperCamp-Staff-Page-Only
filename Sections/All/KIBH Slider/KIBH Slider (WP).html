@@ -1,0 +1,50 @@
+<head>
+    <link rel="stylesheet" href="https://cdn.rawgit.com/stavvie34/External-Libraries/master/Normalize-Ideal-Image-Slider.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/stavvie34/External-Libraries/master/Ideal-Image-Slider.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/stavvie34/External-Libraries/master/Default-Ideal-Image-Slider.css">
+    <style media="screen">
+        #slider {
+            max-width: 900px;
+            margin: 0px auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <section class="bg-primary-bs">
+        <div class="container-bs">
+            <div>
+                <div class="position-card col-md-6-bs col-md-offset-3-bs text-center-bs">
+                    <div class="position-card-icon">
+                        <span>
+              <img class="img-reponsive" src="http://www.supercamp.com/wp-content/uploads/2017/04/heart-atom3.jpg" alt="Logistics Administrator Position">
+            </span>
+                    </div>
+                    <h3 class="position-card-heading">Know It By Heart 2017!</h3>
+                    <span class="position-card-sub-heading">See some of the best photos from our amazing training in Oceanside, CA. Thanks to everyone who made it all possible!</span>
+
+                    <div id="slider" class="img-slider">
+                        <img src="http://www.supercamp.com/wp-content/uploads/2017/04/KIBH-16.jpg" data-src-2x="http://www.supercamp.com/wp-content/uploads/2017/04/KIBH-16.jpg" />
+                        <img data-src="http://www.supercamp.com/wp-content/uploads/2017/04/KIBH-10.jpg" data-src-2x="http://www.supercamp.com/wp-content/uploads/2017/04/KIBH-10.jpg" />
+                        <img data-src="http://www.supercamp.com/wp-content/uploads/2017/04/KIBH-25.jpg" data-src-2x="http://www.supercamp.com/wp-content/uploads/2017/04/KIBH-25.jpg" />
+                        < <img data-src="http://www.supercamp.com/wp-content/uploads/2017/04/KIBH-19.jpg"
+                            data-src-2x="http://www.supercamp.com/wp-content/uploads/2017/04/KIBH-19.jpg" />
+                        <img data-src="http://www.supercamp.com/wp-content/uploads/2017/04/KIBH-4.jpg" data-src-2x="http://www.supercamp.com/wp-content/uploads/2017/04/KIBH-4.jpg" />
+                    </div>
+
+                    <p class="btn-actions" style="margin-top: 30px;"><a href="http://www.supercamp.com/staff/kibh-2017/" target="_blank" class="pos-hdr-btn pos-hdr-btn-success"><i class="fa fa-camera"></i>&nbsp; View The Full Gallery</a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.rawgit.com/stavvie34/External-Libraries/master/Ideal-Image-Slider.js"></script>
+    <script src="https://cdn.rawgit.com/stavvie34/External-Libraries/master/iis-captions.js"></script>
+    <script>
+        var slider = new IdealImageSlider.Slider('#slider');
+        slider.addCaptions();
+        slider.start();
+    </script>
+</body>
