@@ -1,0 +1,36 @@
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.supercamp.com/Staff_files/TimeCircles/inc/TimeCircles.js"></script>
+<link href="http://www.supercamp.com/Staff_files/TimeCircles/inc/TimeCircles.css" rel="stylesheet">
+
+<div id="DateCountdown" data-date="2018-06-25 09:00:00" style="width: 100%;"></div>
+
+<script>
+    $("#DateCountdown").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": true
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": true
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": true
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": true
+            }
+        }
+    });
+</script>
