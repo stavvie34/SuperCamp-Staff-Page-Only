@@ -1,45 +1,74 @@
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript" src="http://www.supercamp.com/Staff_files/TimeCircles/inc/TimeCircles.js"></script>
-<link href="http://www.supercamp.com/Staff_files/TimeCircles/inc/TimeCircles.css" rel="stylesheet">
+<link href="http://www.supercamp.com/Staff_files/TimeCircles/inc/TimeCirclesSC.css" rel="stylesheet">
 
-<section class="bg-primary-bs">
+<!-- INTRODUCES FLEXBOX SOLUTION. PLEASE REMOVE FROM THIS SNIPPET AND MOVE TO A DIFFERENT SECTION LATER -->
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+
+<!-- PLEASE REMEMBER TO MOVE THIS TO A CENTRAL STYLESHEET -->
+<style>
+    @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+        .counter-section {
+            margin-top: -50px;
+        }
+        .counter-card {
+            margin-top: 50px;
+        }
+    }
+    
+    @media only screen and (min-device-width: 768px)and (max-device-width: 992px) {
+        .counter-card-1 {
+            margin-right: 10px;
+        }
+        .counter-card-2 {
+            margin-left: 10px;
+        }
+    }
+</style>
+
+<section class="bg-primary-bs counter-section">
     <div class="container-bs">
-        <div class="position-card col-md-6-bs col-md-offset-3-bs text-center-bs">
-            <div class="position-card-icon">
-                <span>
-                    <img class="img-reponsive" src="http://www.supercamp.com/wp-content/uploads/2017/04/heart-atom3.jpg" alt="Logistics Administrator Position">
-                </span>
+        <div class="row">
+            <div class="position-card counter-card counter-card-1 text-center-bs col-md" style="margin-right: 10px">
+                <div class="position-card-icon">
+                    <span>
+                        <img class="img-reponsive" src="http://www.supercamp.com/wp-content/uploads/2017/04/heart-atom3.jpg" alt="Logistics Administrator Position">
+                    </span>
+                </div>
+                <h3 class="position-card-heading">Day 1 of SuperCamp 2018!</h3>
+                <span class="position-card-sub-heading">The campers are coming, the campers are coming...</span>
+                <div id="DateCountdown" data-date="2018-06-25 09:00:00" style="width: 100%;">
+                </div>
             </div>
-            <h3 class="position-card-heading">Day 1 of SuperCamp 2018!</h3>
-            <span class="position-card-sub-heading">The campers are coming, the campers are coming...</span>
-            <div id="DateCountdown" data-date="2018-06-25 09:00:00" style="width: 100%;">
+
+            <div class="position-card counter-card counter-card-2 text-center-bs col-md" style="margin-left: 10px">
+                <div class="position-card-icon">
+                    <span>
+                        <img class="img-reponsive" src="http://www.supercamp.com/wp-content/uploads/2017/04/heart-atom3.jpg" alt="Logistics Administrator Position">
+                    </span>
+                </div>
+                <h3 class="position-card-heading">LIT 2018</h3>
+                <span class="position-card-sub-heading">The campers are coming, the campers are coming...</span>
+                <div id="DateCountdown2" data-date="2018-03-22 00:00:00" style="width: 100%;">
+                </div>
             </div>
         </div>
 
-        <div class="position-card col-md-6-bs col-md-offset-3-bs text-center-bs">
-            <div class="position-card-icon">
-                <span>
-                    <img class="img-reponsive" src="http://www.supercamp.com/wp-content/uploads/2017/04/heart-atom3.jpg" alt="Logistics Administrator Position">
-                </span>
-            </div>
-            <h3 class="position-card-heading">Day 1 of SuperCamp 2018!</h3>
-            <span class="position-card-sub-heading">The campers are coming, the campers are coming...</span>
-            <div id="DateCountdown2" data-date="2018-06-25 09:00:00" style="width: 100%;">
-            </div>
-        </div>
-
-        <div class="position-card col-md-6-bs col-md-offset-3-bs text-center-bs">
-            <div class="position-card-icon">
-                <span>
-                    <img class="img-reponsive" src="http://www.supercamp.com/wp-content/uploads/2017/04/heart-atom3.jpg" alt="Logistics Administrator Position">
-                </span>
-            </div>
-            <h3 class="position-card-heading">Day 1 of SuperCamp 2018!</h3>
-            <span class="position-card-sub-heading">The campers are coming, the campers are coming...</span>
-            <div id="DateCountdown3" data-date="2018-06-25 09:00:00" style="width: 100%;">
+        <div class="row center-md">
+            <div class="position-card counter-card text-center-bs col-md-6">
+                <div class="position-card-icon">
+                    <span>
+                        <img class="img-reponsive" src="http://www.supercamp.com/wp-content/uploads/2017/04/heart-atom3.jpg" alt="Logistics Administrator Position">
+                    </span>
+                </div>
+                <h3 class="position-card-heading">KIBH</h3>
+                <span class="position-card-sub-heading">The campers are coming, the campers are coming...</span>
+                <div id="DateCountdown3" data-date="2018-04-18 00:00:00" style="width: 100%;">
+                </div>
             </div>
         </div>
     </div>
+
 </section>
 
 
