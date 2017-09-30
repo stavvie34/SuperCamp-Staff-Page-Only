@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <style>
+        .scratchie {
+            border: 3px solid teal;
+            width: 500px;
+            height: 500px;
+            margin: auto;
+        }
+        
+        .scratchie_secret {
+            width: 500px;
+            height: 500px;
+        }
+        
+        .scratchie:hover {
+            cursor: url(http://www.supercamp.com/Staff_files/Test/scratchie.js-master/example/Eraser%28Alex%29.png), auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="scratchie" data-scratchie="Charles.png" width="500px">
+        <div class="scratchie__secret" style="visibility: hidden;">
+            <img src="Mickey.png" alt="Mickey" width="500px;">
+        </div>
+    </div>
+
+
+
+    <script src="../scratchie.js"></script>
+    <script>
+        (function() {
+
+            var scratchie = new Scratchie('[data-scratchie]', {
+                brush: 'Eraser(Alex).png',
+                onRenderEnd: function() {
+                    // Show the form when Image is loaded.
+                    this.element.querySelectorAll('.scratchie__secret')[0].style.visibility = 'visible';
+                },
+                onScratchMove: function(filledInPixels) {
+                    //console.log(filledInPixels + '%');
+                }
+            });
+
+            // Global expose
+            window.scratchie = scratchie;
+        })();
+    </script>
+</body>
+
+</html>
