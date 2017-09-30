@@ -1,0 +1,671 @@
+
+/**** this class defines div that will hold divs with the names of our fonts ****/
+.ainsley-font-loader{
+    z-index: 20;
+    position: fixed;
+    background: #fff;
+    left: -5000px;
+    top: 0;
+    height: 0;
+    width: 0;
+    visibility: hidden;
+}
+
+/**** this class will hide all of our web-fonted areas until all fonts are loaded or a failsafe time is reached ****/
+.ainsley-font-loader-styled{
+    opacity: 0;
+    visibility: hidden;
+}
+
+/**** END FONT STUFF ****/
+
+/**** BEGIN UTILITIES ****/
+.single-supercamp-landing{
+    font-family: sans-serif;
+}
+
+.single-supercamp-landing .wrapper{
+    background-color: #ffffff;
+}
+
+.single-supercamp-landing .wrap{
+    width: 100%; /*96%;*/
+}
+.single-supercamp-landing .inner-wrap{
+    width: 100%; /*94%;*/
+    margin-right:auto;
+    margin-left:auto;
+}
+.single-supercamp-landing .core-wrap{
+    width: 90%;
+    margin-right:auto;
+    margin-left:auto;
+}
+.single-supercamp-landing p{
+    font-size: 18px; /*14px;*/
+    line-height: 20px;
+    color: inherit !important;
+}
+
+.single-supercamp-landing h1,h2,h3,h4,h5,h6{
+    font-weight: inherit;
+}
+
+.single-supercamp-landing .center-text{
+    text-align: center !important;
+}
+.single-supercamp-landing .go100{
+    width: 100% !important;
+}
+
+/**** END UTILITIES ****/
+
+/**** BEGIN HEADER SECTION ****/
+
+.sl-page-header .sl-header-inner{
+    height: 500px; /*300px; /* 400px; */
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    overflow: hidden;
+    display: block;
+    position: relative;
+}
+.sl-page-header .sl-header-inner .sl-logo-holder {
+    width: 240px;
+    height: 60px; /* 90px; */
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 15px;
+}
+.sl-page-header .sl-header-inner .sl-logo-holder img{
+    margin-top: -5px; /* 20px; */
+}
+.sl-page-header .sl-header-inner .sl-header-h1{
+    margin-top: 10px; /*20px;/* base h1 is 30px */
+}
+.sl-page-header .sl-header-inner .sl-header-h1 h1{
+    font-size: 24px;
+    line-height: 24px;
+}
+.sl-page-header .sl-header-inner .sl-header-text{
+    margin-top: 10px;
+}
+.sl-page-header .sl-header-inner .sl-header-phone{
+    margin-top: 20px;
+    font-size: 36px;
+    font-family: inherit;
+}
+.sl-page-header .sl-header-inner .sl-header-color-bar{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 20px;
+}
+/**** END HEADER SECTION ****/
+
+
+
+
+
+
+/******************************************/
+/******     BILLBOARD SECTION     *********/
+/******************************************/
+.single-keswick-landing #lp-billboard{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.single-supercamp-landing #lp-billboard #abs-cont{
+    width: 100%;
+}
+
+.single-supercamp-landing #lp-billboard #abs-cont .lp-logo-holder {
+    width: 240px;
+    height: 60px; /* 90px; */
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    padding: 15px;
+}
+.single-supercamp-landing #lp-billboard #abs-cont .lp-logo-holder img{
+    margin-top: -5px; /* 20px; */
+}
+
+.single-supercamp-landing #lp-billboard #abs-cont #lp-billboard-textgroup{
+    position: relative;
+    text-align: center;
+    width: 80%;
+    margin: 30px auto 0 auto;
+    padding-bottom: 30px;
+}
+
+.single-supercamp-landing #lp-billboard #abs-cont #lp-billboard-headline{
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.single-supercamp-landing #lp-billboard #abs-cont #lp-billboard-text{
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.single-supercamp-landing #lp-billboard #abs-cont .sl-header-phone{
+    /*margin-top: 10px; !*20px;*!*/
+    font-size: 36px;
+    font-family: inherit;
+}
+
+.single-supercamp-landing #lp-billboard  #abs-cont .cover-over{
+    position: relative; /*absolute;*/
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+
+.single-supercamp-landing #lp-billboard  #abs-cont .cover{
+    visibility: hidden;
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.single-supercamp-landing .sl-main-holder{
+    /*margin-top: 10px;*/
+}
+
+
+/**** BEGIN FORM SECTION ****/
+.single-supercamp-landing .gfield_required{
+    display: none;
+    visibility: hidden;
+}
+.single-supercamp-landing .gform_wrapper{
+    margin: 0;
+}
+
+.single-supercamp-landing .gform_wrapper .gfield_description{
+    font-size: 18px; /*16px;*/
+    padding: 5px 0 !important;
+}
+.single-supercamp-landing .gform_wrapper ul li.gfield{
+    clear: none;
+    width: 48%;
+    margin: 0 2%;
+    float: left;
+}
+.single-supercamp-landing .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+    width: 100%;
+}
+.single-supercamp-landing .gform_wrapper input[type="submit"]{
+    border: none;
+}
+
+.single-supercamp-landing .gform_button {
+    border: none;
+}
+.single-supercamp-landing .sl-form .gform_wrapper{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+}
+.single-supercamp-landing .sl-form .gform_wrapper .gform_fields .gfield {
+    /*margin: -20px 0 1px 0;*/
+}
+.single-supercamp-landing .sl-form{
+    padding: 20px 0;
+    font-size: 18px; /*16px;*/
+    line-height: 18px;
+}
+.single-supercamp-landing .sl-form .sl-header-h2{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.single-supercamp-landing .gform_wrapper input[type="text"]{
+    padding: 5px;
+    font-size: 18px; /*16px;*/
+}
+/**** END FORM SECTION ****/
+
+
+/**** BEGIN BODY(LIST) SECTION ****/
+.single-supercamp-landing .sl-list-unstyled{
+    list-style: none;
+}
+
+.single-supercamp-landing .sl-body{
+    position: relative;
+    padding: 20px 0;
+    display: block;
+    height: auto;
+    overflow: auto;
+}
+
+.single-supercamp-landing .sl-lead-in{
+    padding: 20px 0;
+}
+.single-supercamp-landing .sl-pair{
+    height: auto;
+    overflow: auto;
+    margin-bottom: 5px;
+    padding: 10px 0;
+    display: block;
+    position: relative;
+    vertical-align: middle;
+}
+.single-supercamp-landing .sl-body-icon{
+    text-align: center;
+    /*margin-top: 10px;*/
+}
+.single-supercamp-landing .sl-body-icon img{
+    width: 90%; /* reduce this later */
+    height: auto;
+}
+
+.single-supercamp-landing .sl-body-text{
+    margin-top: 20px;
+}
+
+.single-supercamp-landing .sl-body-text h3{
+    font-size: 24px;
+    font-weight: 900;
+    color: #000000;
+    text-transform: none;
+    margin-bottom: 15px;
+}
+
+.single-supercamp-landing .sl-body-text p{
+    vertical-align: middle;
+}
+/**** END BODY SECTION ****/
+
+/**** BEGIN THREE THUMBS ****/
+
+.single-supercamp-landing .sl-three-thumbs{
+    position: relative;
+    padding: 30px 0;
+    display: block;
+    height: auto;
+    overflow: auto;
+}
+
+.single-supercamp-landing .sl-three-thumbs .sl-thumb{
+    margin: 10px 0;
+}
+
+.single-supercamp-landing .sl-three-thumbs .sl-thumb img{
+    width: 100%;
+    height: auto;
+}
+
+/**** END THREE THUMBS ****/
+
+/**** BEGIN FOOTER ****/
+.single-supercamp-landing .sl-footer{
+    position: relative;
+    padding: 20px 0;
+}
+.single-supercamp-landing .sl-footer .sl-footer-text{
+    margin-top: 10px;
+    text-align: center;
+}
+.single-supercamp-landing .sl-footer .sl-footer-image{
+    margin-top: 30px;
+    width: 250px;
+    height: auto;
+    margin-left:auto;
+    margin-right:auto;
+}
+.single-supercamp-landing .sl-footer .sl-footer-phone{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+}
+/**** END FOOTER ****/
+
+/**** BEGIN BOTTOM FOOTER ****/
+.single-supercamp-landing .sl-bottom-footer{
+    position: relative;
+    left: 0;
+    display: block;
+    padding: 20px 0;
+    height: auto;
+    overflow: auto;
+    width: 100% !important;
+    /*vertical-align: middle;*/
+}
+.single-supercamp-landing .sl-bottom-footer .sl-bottom-footer-text{
+    width: 100%;
+    text-align: center;
+}
+.single-supercamp-landing .sl-bottom-footer .sl-bottom-footer-text p{
+    font-size: 12px;
+}
+
+.single-supercamp-landing .sl-bottom-footer .sl-social-container{
+    margin-top: 20px;
+    width: 260px;
+    margin-left:auto;
+    margin-right:auto;
+    overflow: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.single-supercamp-landing .sl-bottom-footer .sl-footer-social-icon{
+    position: relative;
+    display: block;
+    float: left;
+    width: 50px;
+}
+/**** END BOTTOM FOOTER ****/
+
+
+
+
+
+
+@media only screen and (min-width: 320px){
+
+
+}
+
+@media only screen and (min-width: 411px) {
+    .sl-page-header .sl-header-inner .sl-header-h1 h1{
+        font-size: 36px;
+        line-height: 36px;
+    }
+    .sl-page-header .sl-header-inner .sl-header-text{
+        margin-top: 20px;
+    }
+    .sl-page-header .sl-header-inner .sl-header-phone{
+        margin-top: 20px; /*20px;*/
+
+    }
+}
+
+@media only screen and (min-width: 630px){
+
+
+}
+
+@media only screen and (min-width: 768px) {
+    .single-supercamp-landing .wrap{
+        width: 100%;
+    }
+    .single-supercamp-landing .inner-wrap{
+        width: 90%;
+    }
+    .single-supercamp-landing .core-wrap{
+        width: 90%;
+    }
+
+    .sl-page-header .sl-header-inner .sl-header-h1 h1{
+       margin-top: 20px;
+    }
+    .single-supercamp-landing .gform_wrapper ul li.gfield{
+        width: 30%;
+        margin: 0 3%;
+        float: left;
+    }
+    .single-supercamp-landing .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+        width: 100%;
+    }
+   .single-supercamp-landing .sl-body-icon{
+        width: 25%; /*33%;*/
+        float: left;
+        clear: left;
+        margin-right: 3%
+    }
+    .single-supercamp-landing .sl-body-text{
+        width: 68%; /* 60%; */
+        float: left;
+        vertical-align: middle !important;
+        display: block;
+        margin-top: 0;
+    }
+
+    .single-supercamp-landing .sl-bottom-footer .sl-bottom-footer-text{
+        width: 55%;
+        text-align: left;
+        float: left;
+    }
+    .single-supercamp-landing .sl-bottom-footer .sl-social-container{
+        width: 40%;
+        max-width: 260px;
+        float: right;
+        margin: 0;
+        vertical-align:bottom;
+    }
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .single-supercamp-landing p{
+        font-size: 18px; /*16px;*/
+    }
+
+    .sl-page-header .sl-header-inner .sl-header-h1 h1{
+        font-size:  42px;
+    }
+    .sl-page-header .sl-header-inner .sl-header-text{
+       font-size: 18px;
+    }
+    /*.sl-page-header .sl-header-inner .sl-header-phone{*/
+        /*font-size: 48px;*/
+    /*}*/
+    .single-supercamp-landing .sl-form .sl-header-h2 h2{
+       font-size: 36px;
+    }
+
+    .single-supercamp-landing .gform_wrapper ul li.gfield{
+        width: 22%;
+    }
+    .single-supercamp-landing .gform_wrapper .top_label input.medium, .gform_wrapper .top_label select.medium {
+        /*width: 50%;*/
+    }
+
+    .single-supercamp-landing .sl-body-icon{
+        width: 15%; /*33%;*/
+    }
+    .single-supercamp-landing .sl-body-text{
+        width: 78%; /* 60%; */
+    }
+
+    .single-supercamp-landing .sl-three-thumbs .sl-thumb{
+        width: 31%;
+        margin: 0 1%;
+        float: left;
+        position: relative;
+    }
+
+    /**** END THREE THUMBS ****/
+    .single-supercamp-landing .sl-bottom-footer .sl-bottom-footer-text{
+        width: 60%;
+    }
+
+    /******************************************/
+    /******     BILLBOARD SECTION     *********/
+    /******************************************/
+    .single-supercamp-landing #lp-billboard{
+        height: 370px;
+    }
+
+    .single-supercamp-landing #lp-billboard #abs-cont{
+        position: absolute;
+        z-index: 2;
+        height: 350px;
+        background: #000;
+        overflow: hidden;
+    }
+
+    .single-supercamp-landing #lp-billboard #abs-cont .lp-logo-holder {
+       position: absolute;
+       z-index: 10;
+        left: calc(50% - 120px);
+    }
+
+    .single-supercamp-landing #lp-billboard #abs-cont #lp-billboard-textgroup{
+        position: absolute;
+        z-index: 4;
+
+        left: 10%;
+        top: 90px;
+    }
+
+    .single-supercamp-landing #lp-billboard #abs-cont .sl-header-phone{
+        font-size: 48px;
+    }
+
+    .single-supercamp-landing #lp-billboard .lp-form{
+        position: absolute;
+        z-index: 6;
+        top: 0;
+        right: 0;
+        width: 45%;
+    }
+
+
+
+}
+
+
+@media only screen and (min-width: 1130px) {
+    .single-supercamp-landing #lp-billboard{
+        height: 410px;
+    }
+
+    .single-supercamp-landing #lp-billboard #abs-cont{
+        height: 400px;
+    }
+}
+
+@media only screen and (min-width: 1440px) {
+    .single-supercamp-landing .wrap{
+        max-width: 1290px;
+        margin-right:auto;
+        margin-left:auto;
+    }
+    .single-supercamp-landing .inner-wrap{
+        width: 100%;
+        max-width: 1290px;
+    }
+    .single-supercamp-landing .core-wrap{
+        width: 90%;
+    }
+
+    .single-supercamp-landing #lp-billboard #abs-cont #lp-billboard-textgroup{
+        width: 60%;
+        left: 20%;
+    }
+
+    .single-supercamp-landing #lp-billboard #abs-cont .cover-over{
+        /*visibility: hidden;*/
+        /*display: none;*/
+    }
+
+    .single-supercamp-landing #lp-billboard #abs-cont .cover-over img{
+        width: 1440px;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .single-supercamp-landing #lp-billboard #abs-cont .cover{
+        visibility: visible;
+        display: block;
+        width: 100%;
+        height: auto;
+        text-align: center;
+        -webkit-filter: blur(5px);
+        -moz-filter: blur(5px);
+        -o-filter: blur(5px);
+        -ms-filter: blur(5px);
+        filter: blur(5px);
+        position: absolute;
+        z-index: 0;
+        top: 0;
+    }
+    .single-supercamp-landing #lp-billboard #abs-cont .cover img{
+
+        width: 100%;
+        /*max-width: 600%;*/
+        /*visibility: hidden;*/
+    }
+}
+
+
+
+
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10000; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    /*overflow: auto;*/ /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 30px;
+    border: 1px solid #888;
+    width: 85%; /* Could be more or less, depending on screen size */
+    height: auto;
+}
+
+.modal-content .video-container{
+    text-align: center;
+}
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: -20px;
+    margin-top: -25px;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}

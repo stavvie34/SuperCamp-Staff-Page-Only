@@ -1,0 +1,694 @@
+/* this has been stripped out */
+.column_inner{
+    /* background: lightgreen; */
+}
+
+
+@media only screen and (min-width: 1130px){
+    .location-container .location-overview-container{
+       height: 520px;
+    }
+}
+
+@media only screen and (min-width: 1136px){
+
+}
+
+
+.page-template-blog-large-image .container_inner{
+    width: 288px;
+}
+@media only screen and (min-width: 320px){
+
+}
+
+.location-container{
+    margin-top: 30px;
+}
+
+.location-container .location-spacer-20{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.location-container h2{
+    text-transform: none;
+    /*color: #45769c;*/
+    /*color: #e6e6e6; /*light grey*/
+    color: #193864; /*darkest blue*/
+}
+
+
+.location-container .location-overview-container{
+    position: relative;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.location-container .location-overview-container .location-overview-image{
+    padding: 10px;
+}
+
+.location-container .location-overview-container .location-overview-words{
+    padding: 30px 10px;
+    height: 100%;
+    position: relative; /*absolute; /* this will have to be handled in mobile */
+    /*left: 50%;*/
+}
+
+.location-enroll-btn a{
+    display: block;
+    float: left;
+
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #b4d333;
+    text-align: center;
+    padding-top: 7px;
+
+    position: relative; /*absolute;*/
+    bottom: 10px; /* needs to match container padding */
+    margin-top: 30px;
+}
+
+.location-enroll-btn a:hover{
+    color: #b4d333;
+    background-color: #fff;
+}
+
+/*******************************/
+/*******************************/
+/* PRICING GRID - pinched from pricing section */
+
+.location-pricing-section {
+    position: relative;
+    /*overflow: auto;*/
+    height: auto;
+    background: #193864;
+    padding: 30px 10px 30px 10px;
+    /*-ms-overflow-style: -ms-autohiding-scrollbar;*/
+     -ms-overflow-style: none;
+}
+
+.location-pricing-section h2{
+    /*font-size: 20px;*/
+    font-weight: 700;
+    text-transform: none;
+    color: #99c1da; /*very light blue */
+}
+
+.location-pricing-section .patch-pricing-section-vertical-divide{
+    position: relative;
+    float: left;
+    display: block;
+    width: 1%;
+    height:90px;
+    border-left: 1px solid lightgray;
+    margin-top: 90px;
+    /*top: 25%; !*50%;*!*/
+    /*left: 50%;*/
+    transform: translateY(-50%);
+}
+
+.location-pricing-section .hide-on-mobile{
+    visibility: hidden;
+    display: none;
+}
+
+.location-pricing-section .patch-pricing-section-place-container{
+    position: relative;
+    float: left;
+    display: block;
+    height: 180px;
+    width: 50%;
+}
+.location-pricing-section .patch-pricing-section-place-container .patch-pricing-section-place{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.location-pricing-section .patch-pricing-section-place h4{
+    text-align: center;
+    text-transform: none;
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    letter-spacing: inherit;
+}
+
+.location-pricing-section .patch-pricing-mobile-consolidate{
+    position: relative;
+    float: left;
+    display: block;
+    width: 49%;
+    height: 180px; /*100%;*/
+    vertical-align: middle;
+}
+
+.location-pricing-section .patch-pricing-mobile-consolidate .patch-pricing-section-city{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    top: 30%; /*40%;*/
+    transform: translateY(-50%);
+}
+
+.location-pricing-section .patch-pricing-mobile-consolidate .patch-pricing-section-dates{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    line-height: 20px;
+
+    top: 45%; /*40%;*/
+    transform: translateY(-50%);
+}
+
+.location-pricing-section .patch-pricing-section-price-container {
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 178px; /*100%;*/
+    margin-bottom: 1px;
+
+    text-align: center;
+    background: #45769c;
+}
+.location-pricing-section .patch-pricing-section-price-container .patch-pricing-section-price{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-weight: 900;
+    font-size: 28px; /*32px;*/
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.location-pricing-section .patch-pricing-section-price-container .patch-pricing-section-price p{
+    color: #fff;
+}
+
+.location-pricing-section .patch-pricing-section-price-container .patch-pricing-section-price .patch-pricing-section-early{
+    width: 90%;
+    margin:20px auto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.location-pricing-section .patch-pricing-section-price-container .patch-pricing-section-price-button{
+    position: relative;
+    display: block;
+    width: 50%; /*80%;*/
+    border: 2px solid #fff;
+    margin: 15px auto 0 auto;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.location-pricing-section .patch-pricing-section-price-container a.patch-pricing-section-price-button:hover{
+    color: #45769c;
+    background: #fff;
+}
+
+
+/* DETAILS GRID */
+
+.location-details-section {
+    position: relative;
+    overflow: auto;
+    background: #45769c; /*#99c1da;*/
+    padding: 30px 10px 30px 10px;
+}
+
+.location-details-section h2{
+    text-align: center;
+    color: #fff;
+}
+
+.location-details-section h4{
+    font-size: 18px;
+    text-transform: none;
+    letter-spacing: inherit;
+    color: #b4d333;
+}
+
+.location-details-section .location-details-grid{
+    margin: 20px auto 0 auto;
+}
+
+.location-details-section .location-details-grid a:hover{
+    color: #fff;
+}
+.location-details-section .location-details-grid .location-details-grid-child{
+    width: 100%;
+    height: auto;
+    padding: 20px 20px 40px 20px;
+    float: left;
+}
+
+.location-details-section .location-details-grid .location-details-grid-child p{
+    color: #fff;
+}
+
+.location-details-section .location-details-grid .location-details-grid-child:nth-child(1) {
+
+    border-bottom: 1px solid #fff;
+}
+
+.location-details-section .location-details-grid .location-details-grid-child:nth-child(2) {
+
+    border-bottom: 1px solid #fff;
+}
+
+.location-details-section .location-details-grid .location-details-grid-child:nth-child(3) {
+    border-bottom: 1px solid #fff;
+}
+
+.location-details-section .location-details-grid .location-details-grid-child:nth-child(4) {
+    border-bottom: 1px solid #fff;
+}
+
+.location-details-section .location-details-grid .location-details-grid-child:nth-child(5) {
+    border-bottom: 1px solid #fff;
+}
+
+/* STAFF SECTION */
+
+.location-staff-section {
+    position: relative;
+    overflow: auto;
+    background: #fff;
+    padding: 30px 10px 30px 10px;
+}
+
+.location-staff-section h2{
+    text-transform: none;
+    color: #193864;
+}
+
+.location-staff-section p{
+    margin-top: 20px;
+}
+
+.location-staff-section div{
+    padding: 20px;
+}
+
+/* the VC single image after the staff words */
+.location-staff-section-outer .wpb_wrapper{
+    background: #fff;
+}
+
+.location-staff-section-outer .vc_single_image-wrapper{
+    padding: 0 20px 0 20px;
+}
+
+
+/* CAMPUS FACTS SECTION */
+
+.location-facts-section {
+    position: relative;
+    overflow: auto;
+    background: #fff;
+    padding: 30px 10px 30px 10px;
+}
+
+.location-facts-section h2{
+    text-transform: none;
+    color: #193864;
+}
+
+.location-facts-section p{
+    margin-top: 20px;
+}
+
+.location-facts-section div{
+    padding: 20px;
+}
+
+
+/* BOTTOM CTA AREA */
+
+.location-bottom-cta-section {
+    position: relative;
+    overflow: auto;
+    background: #193864;
+    padding: 30px 10px 30px 10px;
+}
+
+.location-bottom-cta-section .location-bottom-cta-btn-group{
+    width: 90%;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.location-bottom-cta-section .location-bottom-cta-btn{
+    text-align: center;
+    height: 50px;
+    width: 280px;
+    max-width: 280px;
+    padding-top: 12px;
+    margin: 10px auto 20px auto;
+    color: #fff !important;
+    /*color: #fff;*/
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.location-bottom-cta-section a{
+    display: block;
+    /*float: left;*/
+    color: inherit;
+    background-color: inherit;
+}
+
+.location-bottom-cta-section a:hover{
+    color: inherit;
+    background-color: inherit;
+}
+
+.location-bottom-cta-section .blue{
+    color: #fff;
+    background-color: #193864;
+    border: 1px solid #fff;
+}
+.location-bottom-cta-section .green{
+    background-color: #b4d333;
+}
+
+
+.location-bottom-cta-section .blue:hover{
+    color: #193864 !important;
+    background-color: #fff;
+}
+.location-bottom-cta-section .green:hover{
+    color: #b4d333 !important;
+    background-color: #fff;
+}
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 601px) {
+
+
+}
+
+@media only screen and (min-width: 630px){
+
+}
+
+@media only screen and (max-width: 767px){
+    .single .wrapper .wrapper_inner .content .content_inner .container .container_inner{
+        /*width: 90%;*/
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .location-container .location-overview-container .location-overview-image{
+        padding: 20px;
+    }
+
+    .location-container .location-overview-container .location-overview-words{
+        padding: 30px 20px;
+    }
+
+    .location-pricing-section {
+        padding: 30px 20px 30px 20px;
+    }
+
+
+    .location-details-section .location-details-grid .location-details-grid-child{
+        width: 50%;
+        height: auto;
+        padding: 20px 20px 40px 20px;
+        float: left;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child p{
+        color: #fff;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child:nth-child(1) {
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child:nth-child(2) {
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child:nth-child(3) {
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child:nth-child(4) {
+        border-right: none;
+        border-bottom: 1px solid #fff;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child:nth-child(5) {
+        border-right: 1px solid #fff;
+        border-bottom: none;
+    }
+
+
+
+
+}
+
+@media only screen and (min-width: 1024px) {
+    .max-width-catch{
+        width: 85%;/*900px;*/
+        overflow: auto;
+        position: relative;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .max-half-width-catch{
+        max-width: 42.5%;
+    }
+
+    .catch-left{
+        margin-right: 0;
+        margin-left: 7.5%; /*calc(50% - 42.5%);*/
+    }
+    .catch-right{
+        margin-left: 0;
+    }
+
+    .patch-pricing-section-place-container-outer{
+        position: relative;
+        display: block;
+        border: 1px solid #fff;
+        /*width: 90%;*/
+        height: 180px;
+        margin: 20px auto 0 auto;
+    }
+
+    .location-pricing-section .patch-pricing-section-vertical-divide{
+
+        height:90px;
+        /*top: 50%;*/
+        transform: translateY(-50%);
+    }
+
+    .location-pricing-section .hide-on-mobile{
+        visibility: visible;
+        display: block;
+    }
+
+    .location-pricing-section .patch-pricing-section-place-container{
+
+        width: 28%;
+    }
+
+    .location-pricing-section .patch-pricing-section-place-container .patch-pricing-section-place{
+        width: 100%;
+    }
+
+    .location-pricing-section .patch-pricing-mobile-consolidate{
+        width: 43%;
+    }
+
+    .location-pricing-section .patch-pricing-mobile-consolidate .patch-pricing-section-city{
+        width: 50%; /*20%;*/
+        top: 50%;
+    }
+
+    .location-pricing-section .patch-pricing-mobile-consolidate .patch-pricing-section-dates{
+        width: 49%;
+        top: 50%;
+    }
+
+    .location-pricing-section .patch-pricing-section-price-container {
+        width:28%;
+    }
+
+
+
+    .location-details-section .location-details-grid .location-details-grid-child{
+        width: 33%;
+        height: auto;
+        padding: 20px 20px 40px 20px;
+        float: left;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child p{
+        color: #fff;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child:nth-child(1) {
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child:nth-child(2) {
+        border-right: 1px solid #fff;
+        border-bottom: 1px solid #fff;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child:nth-child(3) {
+        border-bottom: 1px solid #fff;
+        border-right: none;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child:nth-child(4) {
+        border-right: 1px solid #fff;
+        border-bottom: none;
+    }
+
+    .location-details-section .location-details-grid .location-details-grid-child:nth-child(5) {
+        border-right: 1px solid #fff;
+    }
+
+
+    /* BOTTOM CTA AREA */
+
+    .location-bottom-cta-section .location-bottom-cta-btn-group{
+        width: 820px;
+        overflow: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .location-bottom-cta-section .location-bottom-cta-btn{
+        float: left;
+        width: 260px;/*280px;*/
+        /*margin: 10px 10px 20px 10px;*/
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .location-bottom-cta-section .location-bottom-cta-btn:nth-child(1){
+        margin-left: 0;
+        margin-right: 10px;
+    }
+    .location-bottom-cta-section .location-bottom-cta-btn:nth-child(2){
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .location-bottom-cta-section .location-bottom-cta-btn:nth-child(3){
+        margin-left: 10px;
+        margin-right: 0;
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1129px) {
+
+}
+
+
+
+@media only screen and (min-width: 1130px) {
+    .location-container .location-overview-container .location-overview-words{
+        position: absolute;
+        left: 50%;
+    }
+
+    .location-enroll-btn a{
+        /*position: absolute;*/
+    }
+
+    /* BOTTOM CTA AREA */
+
+    .location-bottom-cta-section .location-bottom-cta-btn-group{
+        width: 900px;
+
+    }
+
+    .location-bottom-cta-section .location-bottom-cta-btn{
+
+        width: 280px;/*280px;*/
+       font-size: 22px;
+    }
+
+    .location-bottom-cta-section .location-bottom-cta-btn:nth-child(1){
+        margin-left: 0;
+        margin-right: 15px;
+    }
+    .location-bottom-cta-section .location-bottom-cta-btn:nth-child(2){
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .location-bottom-cta-section .location-bottom-cta-btn:nth-child(3){
+        margin-left: 15px;
+        margin-right: 0;
+    }
+
+}
+
+@media only screen and (min-width: 1440px) {
+    /*.max-width-catch{
+        max-width: 1340px;
+    }
+
+    .max-half-width-catch{
+       max-width: 770px;
+    }
+
+    .catch-left{
+        margin-right: 0;
+        margin-left: calc(50% - 770px);
+    }
+    .catch-right{
+       margin-left: 0;
+    }*/
+
+    /*.location-enroll-btn a{*/
+       /*position: absolute;*/
+        /*bottom: 20px;*/
+    /*}*/
+}

@@ -1,0 +1,211 @@
+.page-id-839 .content, .page-id-64052 .content{
+    /* background: #ff0000; */
+}
+
+.page-id-839 .h2, 
+
+.page-id-64052 .h2{
+    color: #193864;
+    font-size: 18px; /*24px;*/
+    font-weight: 700;
+    margin: 20px 20px 20px 0;
+}
+
+.page-id-839 a.link1, .page-id-64052 a.link1{
+    color: #45769c; /*#193864; /*blue-gray */
+    font-size: 16px;
+}
+.page-id-839 a.link1:hover, .page-id-64052 a.link1:hover{
+    color: gray;
+}
+
+.page-id-839 a.link2, .page-id-64052 a.link2{
+    color: #193864;
+}
+.page-id-839 a.link2:hover, .page-id-64052 a.link2:hover{
+    color: gray;
+}
+
+.last-item{
+    margin-bottom: 50px !important;
+}
+.patch-pricing-section{
+    width: 100%;
+    height: 360px; /*180px;*/
+    font-size: 18px;
+    position: relative;
+    border: 1px solid #e6e6e6;
+    margin: 10px 0;
+}
+
+.patch-pricing-section .patch-pricing-section-vertical-divide{
+    position: relative;
+    float: left;
+    display: block;
+    width: 1%;
+    height:90px;
+    border-left: 1px solid lightgray;
+    top: 25%; /*50%;*/
+    transform: translateY(-50%);
+}
+
+.patch-pricing-section .hide-on-mobile{
+    visibility: hidden;
+    display: none;
+}
+
+.patch-pricing-section .patch-pricing-section-place-container{
+    position: relative;
+    float: left;
+    display: block;
+    height: 180px;
+    width: 50%;
+}
+.patch-pricing-section .patch-pricing-section-place-container .patch-pricing-section-place{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.patch-pricing-section .patch-pricing-section-place h3{
+    text-align: center;
+    text-transform: none;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #45769c;
+    letter-spacing: inherit;
+}
+
+.patch-pricing-section .patch-pricing-mobile-consolidate{
+    position: relative;
+    float: left;
+    display: block;
+    width: 49%;
+    height: 180px; /*100%;*/
+}
+
+.patch-pricing-section .patch-pricing-mobile-consolidate .patch-pricing-section-city{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: gray; /*#e6e6e6;*/
+
+
+    top: 50%;
+   transform: translateY(-50%);
+}
+
+.patch-pricing-section .patch-pricing-mobile-consolidate .patch-pricing-section-dates{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: gray; /*#e6e6e6;*/
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.patch-pricing-section .patch-pricing-section-price-container {
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    height: 180px; /*100%;*/
+
+    text-align: center;
+    background: #45769c;
+}
+.patch-pricing-section .patch-pricing-section-price-container .patch-pricing-section-price{
+    position: relative;
+    float: left;
+    display: block;
+    width: 100%;
+    color: #fff;
+    font-weight: 900;
+    font-size: 32px;
+
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.patch-pricing-section .patch-pricing-section-price-container .patch-pricing-section-price .patch-pricing-section-early{
+    width: 90%;
+    margin:20px auto;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 16px;
+}
+
+.patch-pricing-section .patch-pricing-section-price-container .patch-pricing-section-price-button{
+    position: relative;
+    display: block;
+    width: 80%;
+    border: 2px solid #fff;
+    margin: 15px auto 0 auto;
+    color: #fff;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.patch-pricing-section .patch-pricing-section-price-container a.patch-pricing-section-price-button:hover{
+    color: #45769c;
+    background: #fff;
+
+}
+
+@media only screen and (min-width: 601px) {
+
+    .page-id-839 .h2, .page-id-64052 .h2{
+        font-size: 24px;
+    }
+
+    .patch-pricing-section{
+        height: 180px;
+        margin: 20px 0 10px 0;
+    }
+
+    .patch-pricing-section .patch-pricing-section-vertical-divide{
+
+        height:90px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .patch-pricing-section .hide-on-mobile{
+        visibility: visible;
+        display: block;
+    }
+
+    .patch-pricing-section .patch-pricing-section-place-container{
+
+        width: 32%;
+    }
+
+    .patch-pricing-section .patch-pricing-section-place-container .patch-pricing-section-place{
+        width: 100%;
+    }
+
+    .patch-pricing-section .patch-pricing-mobile-consolidate{
+        width: 39%;
+    }
+
+    .patch-pricing-section .patch-pricing-mobile-consolidate .patch-pricing-section-city{
+        width: 50%; /*20%;*/
+    }
+
+    .patch-pricing-section .patch-pricing-mobile-consolidate .patch-pricing-section-dates{
+        width: 49%;
+    }
+
+    .patch-pricing-section .patch-pricing-section-price-container {
+        width:28%;
+    }
+}

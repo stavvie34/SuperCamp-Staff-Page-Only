@@ -1,0 +1,599 @@
+
+.programs_pages{
+
+}
+
+.programs_pages .full_width_inner{
+    padding: 0 20px;
+}
+
+/*******************************/
+/****** CUSTOM TABS STUFF ******/
+/*******************************/
+.custom-tabs-container{
+
+}
+
+.custom-tabs-container .custom-tabs-tabs{
+    width: 100%;
+    display: block;
+    height: auto;
+    overflow: auto;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.custom-tabs-container .custom-tabs-tabs .custom-tabs-tab{
+    cursor: pointer;
+    text-align: center;
+    font-weight: 900;
+    float: left;
+    position: relative;
+    z-index: 1;
+
+    height: 30px;
+    width: 30px;
+    padding-top: 2px;
+    background-color: #193864;
+    color: #fff;
+    -moz-border-radius: 15px;
+    -webkit-border-radius: 15px;
+    border-radius: 15px;
+}
+
+.custom-tabs-container .custom-tabs-tabs .custom-tabs-tab:hover{
+    color: #193864;
+    background-color: #fff;
+}
+
+.custom-tabs-container .custom-tabs-tabs .custom-tabs-tab.active{
+    background-color: #b4d333; /*green*/
+    color: #193864;
+}
+
+.custom-tabs-container .custom-tabs-tabs .custom-tabs-tabs-line{
+    width: 1%;
+    height: 2px;
+    border-bottom: solid 2px #193864;
+    z-index: 0;
+    position: absolute;
+    bottom: 15px;
+}
+
+.custom-tabs-container .custom-tabs-content{
+    margin-bottom: 20px;
+}
+
+.custom-tabs-container .custom-tabs-content .custom-tab-content.active{
+    visibility: visible;
+    display: block;
+    color: #fff;
+}
+.custom-tabs-container .custom-tabs-content .custom-tab-content.inactive{
+    visibility: hidden;
+    display: none
+}
+/**************************/
+/**** END CUSTOM TABS *****/
+/**************************/
+
+.programs_pages .programs-overview-top-right{
+    font-size: 20px;
+}
+
+.bottom-margin-20{
+    margin-bottom: 20px;
+}
+
+.highlight-green{
+    color: #b4d333; /*green*/
+    font-weight: 900;
+}
+.programs_pages .wpb_row{
+    /*margin-bottom: 20px !important;*/
+    padding: 20px 0 30px 0;
+}
+.programs_pages .wpb_row:last-of-type{
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.programs_pages .location-spacer-20{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.programs_pages .custom-mid-background{
+    background-color: #45769c;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.programs_pages .custom-dark-background{
+    background-color: #193864;
+    margin-left: -25px;
+    margin-right: -25px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.programs_pages .custom-dark-background h2{
+   color: #fff;
+    margin-bottom: 20px;
+}
+
+.programs_pages .center-this{
+    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.programs_pages .box-callout{
+    /*background-color:#99c1da; !* lightest blue *!*/
+    /*background-color: #45769c; !* mid blue *!*/
+    position: relative;
+    color: #fff;
+    /*margin: 10px;*/
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 15px;
+}
+.programs_pages .box-callout p{
+    color: #fff;
+}
+
+.programs_pages .box-callout img {
+    margin-bottom: 40px;
+    height: 144px;
+    width: auto;
+    max-height: 144px;
+}
+
+.programs_pages .box-callout ul li{
+    margin-left: 20px;
+
+}
+.programs_pages .box-callout ul{
+    list-style: disc;
+    list-style-position: outside;
+}
+
+.programs_pages .box-callout h3{
+    text-transform: uppercase;
+}
+
+.programs_pages .box-callout-2{
+    background-color: #45769c; /* mid blue */
+    color: #fff;
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px 15px;
+}
+.programs_pages .box-callout-2 p{
+    color: #fff;
+}
+
+.programs_pages h2{
+    margin: 10px 0 20px 0;
+    text-transform: none;
+    /*color: #45769c;*/
+    /*color: #e6e6e6; /*light grey*/
+    color: #193864; /*darkest blue*/
+}
+
+.programs_pages .custom-mid-background h2{
+    color: #fff !important;
+}
+
+
+.programs_pages h3{
+   color: #fff;
+    font-weight: 900;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/*****************************/
+/**** VC Accordion Stuff *****/
+/* Interactive Builds hosted the icons - and  they are now gone .... wut!? */
+/* location accordion */
+.programs_pages .programs-locations-accordion.accordion .ui-accordion-header .accordion_mark_icon{
+    background-image: url('../../assets/img/icon-plus2.png');
+}
+.programs_pages .programs-locations-accordion.accordion .ui-accordion-header.ui-state-active .accordion_mark_icon{
+    background-image: url('../../assets/img/icon-minus2.png');
+}
+.programs_pages .programs-locations-accordion.accordion .ui-accordion-header .accordion_mark_icon img{
+    /*height: 75px;*/
+    /*width: 75px;*/
+    width: 100%;
+    height: 100%;
+}
+.programs_pages .programs-locations-accordion.accordion .ui-accordion-header .accordion_mark{
+    /*height: 75px;*/
+    /*width: 75px;*/
+}
+.programs_pages .programs-locations-accordion.accordion h5.ui-accordion-header {
+    background:  #b4d333 none repeat scroll 0 0;
+    font-size: 14px;
+    color: #193864; /*darkest blue*/
+    padding-top: 9px;
+    padding-bottom: 9px;
+    margin-top: 10px;
+}
+.programs_pages .programs-locations-accordion.accordion.without_icon .ui-accordion-header span.tab-title{
+    color: #193864; /*darkest blue*/
+    line-height: 20px;
+}
+.programs_pages .programs-locations-accordion .accordion_content_inner .vc_single_image-wrapper{
+    margin-bottom: 20px;
+}
+
+/* FAQ accordion */
+.programs_pages .programs-plain-accordion.accordion .ui-accordion-header .accordion_mark_icon{
+    background-image: url('../../assets/img/icon-plus-193864.png');
+}
+.programs_pages .programs-plain-accordion.accordion .ui-accordion-header.ui-state-active .accordion_mark_icon{
+    background-image: url('../../assets/img/icon-minus-193864.png');
+}
+.programs_pages .programs-plain-accordion.accordion .ui-accordion-header .accordion_mark_icon img{
+    /*height: 75px;*/
+    /*width: 75px;*/
+    width: 100%;
+    height: 100%;
+}
+.programs_pages .programs-plain-accordion.accordion .ui-accordion-header .accordion_mark{
+    /*height: 75px;*/
+    /*width: 75px;*/
+}
+.programs_pages .programs-plain-accordion.accordion h5.ui-accordion-header {
+    background:  transparent none repeat scroll 0 0;
+    font-size: 12px;
+    color: #193864; /*darkest blue*/
+    padding-top: 12px;
+    padding-bottom: 9px;
+}
+.programs_pages .programs-plain-accordion.accordion.without_icon .ui-accordion-header span.tab-title{
+    color: #193864; /*darkest blue*/
+    font-size: 12px;
+    line-height: 20px;
+    padding: 0 0 0 40px;
+}
+.programs_pages .programs-plain-accordion .accordion_content_inner .vc_single_image-wrapper{
+    margin-bottom: 20px;
+}
+
+/***** end accordion *****/
+
+/**** Details section ****/
+.programs_pages .programs-details-dates{
+
+}
+
+.programs_pages .programs-details-grades{
+
+}
+
+.programs_pages .programs-details-days{
+
+}
+
+.programs_pages .programs-details-price{
+
+}
+
+.programs_pages .programs-details-info{
+
+}
+.programs_pages .programs-details-info a{
+    color: #193864; /*darkest blue*/
+    font-weight: 900;
+}
+.programs_pages .programs-details-info a:hover{
+    color: #45769c;
+}
+/***** end details section *****/
+
+.programs-enroll-btn a{
+    display: block;
+    /*float: left;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #193864;
+    text-align: center;
+    padding-top: 7px;
+    position: relative; /*absolute;*/
+    bottom: 10px; /* needs to match container padding */
+    margin-top: 30px;
+}
+
+.programs-enroll-btn a:hover{
+    color: #193864;
+    background-color: #fff; /*#b4d333;*/
+}
+
+
+/* pulled from new locations pages */
+.programs-green-enroll-btn a{
+    display: block;
+    /*float: left;*/
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 40px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #b4d333;
+    text-align: center;
+    padding-top: 7px;
+    position: relative; /*absolute;*/
+    bottom: 10px; /* needs to match container padding */
+    margin-top: 30px;
+}
+
+.programs-green-enroll-btn a:hover{
+    color: #b4d333;
+    background-color: #fff;
+}
+
+
+
+/* TYPICAL DAY */
+.programs_pages .typical-day{
+
+}
+
+.programs_pages .typical-day ul{
+    list-style-position: outside;
+    list-style-type: disc;
+    margin: 10px 0 10px 30px;
+}
+.programs_pages .typical-day .match-list-margin{
+    margin-left: 30px;
+}
+
+.programs_pages .bottom-cta-row{
+    padding: 20px 0 0 0;
+    margin-bottom: -1px;
+}
+
+.programs_pages .wpb_text_column :last-child{
+    /*margin-bottom: -1px;*/
+}
+/* BOTTOM CTA AREA */
+
+.programs-bottom-cta-section {
+    position: relative;
+    overflow: auto;
+    width: calc(100% + 50px);
+    margin-left: -25px;
+    margin-right: -25px;
+    margin-bottom: 0;
+    background:  #193864;
+    padding: 30px 20px 30px 10px;
+}
+
+.programs-bottom-cta-section .programs-bottom-cta-btn-group{
+    width: 98%;/**/
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.programs-bottom-cta-section .location-bottom-cta-btn{
+    text-align: center;
+    height: 50px;
+    width: 280px;
+    max-width: 280px;
+    padding-top: 12px;
+    margin: 10px auto 20px auto;
+    color: #fff !important;
+    /*color: #fff;*/
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.programs-bottom-cta-section .blue{
+    color: #fff;
+    background-color: #193864;
+    border: 1px solid #fff;
+}
+
+.programs-bottom-cta-section a{
+    display: block;
+    /*float: left;*/
+    color: inherit;
+    background-color: inherit;
+}
+
+.programs-bottom-cta-section a:hover{
+    color: inherit;
+    background-color: inherit;
+}
+
+.programs-bottom-cta-section .blue{
+    color: #fff;
+    background-color: #193864;
+}
+.programs-bottom-cta-section .green{
+    background-color: #b4d333;
+}
+
+
+.programs-bottom-cta-section .blue:hover{
+    color: #193864 !important;
+    background-color: #fff;
+}
+.programs-bottom-cta-section .green:hover{
+    color: #b4d333 !important;
+    background-color: #fff;
+}
+
+
+
+
+.programs-pages .large-only{
+    display: none;
+    visibility: hidden;
+}
+
+
+
+@media only screen and (min-width: 601px) {
+
+
+}
+
+@media only screen and (min-width: 630px){
+
+}
+
+@media only screen and (max-width: 767px){
+    .single .wrapper .wrapper_inner .content .content_inner .container .container_inner{
+        /*width: 90%;*/
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .programs-green-enroll-btn a {
+       float: left;
+    }
+
+    .programs_pages .box-callout {
+        width: 100%;
+    }
+
+    .programs_pages .programs-locations-accordion.accordion h5.ui-accordion-header {
+        padding-top: 14px;
+    }
+
+    .programs-bottom-cta-section .programs-bottom-cta-btn-group{
+        /*width: 90%;*/
+        /*text-align: center;*/
+        /*margin-left: 0;*/
+        /*margin-right: 0;*/
+    }
+
+    .programs-pages .large-only{
+        display: block;
+        visibility: visible;
+    }
+
+
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .max-width-catch {
+        width: 100%; /*900px;*/
+    }
+    .programs_pages .custom-dark-background{
+        padding-top: 30px;
+    }
+
+    .location-bottom-cta-section {
+
+        padding: 30px 0 30px 0;
+    }
+
+    .programs-bottom-cta-section .programs-bottom-cta-btn-group{
+        width: 905px; /**/
+        text-align: center;
+    }
+
+    .programs-bottom-cta-section .location-bottom-cta-btn{
+        width: 280px;
+        margin: 10px;
+    }
+
+    .programs-bottom-cta-section a{
+       float: left;
+    }
+
+
+    /**** Details section ****/
+
+    .programs-details-container{
+        position: relative;
+        height: auto;
+        overflow: auto;
+    }
+    .programs_pages .programs-details-dates{
+        position: relative;
+        float: left;
+        margin-right: 20px;
+        width: 225px;
+    }
+
+    .programs_pages .programs-details-grades{
+        position: relative;
+        float: left;
+        margin-right: 20px;
+        width: 150px;
+    }
+
+    .programs_pages .programs-details-days{
+        position: relative;
+        float: left;
+        margin-right: 20px;
+        width: 100px;
+    }
+
+    .programs_pages .programs-details-price{
+        position: relative;
+        float: left;
+        margin-right: 20px;
+        width: 100px;
+    }
+
+    .programs_pages .programs-details-info{
+
+    }
+
+
+
+}
+
+
+@media only screen and (max-width: 1129px) {
+
+}
+
+
+
+@media only screen and (min-width: 1130px) {
+
+
+}
+
+@media only screen and (min-width: 1440px) {
+   .max-width-catch{
+       max-width: 1340px;
+       margin-left: auto !important;
+       margin-right: auto !important;
+       float: none;
+    }
+
+    .max-half-width-catch{
+       max-width: 770px;
+    }
+
+    .catch-left{
+        margin-right: 0;
+        margin-left: calc(50% - 770px);
+    }
+    .catch-right{
+       margin-left: 0;
+    }
+
+}

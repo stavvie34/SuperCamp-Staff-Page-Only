@@ -1,0 +1,16 @@
+.search-results .wrapper .container_inner{
+    width: 90%;
+    max-width: 1290px;
+    min-width: 320px;
+}
+
+.search-results .wrapper .container_inner .blog_holder article{
+    width: 100%;
+}
+
+@media only screen and (min-width:769px){
+    .search-results .wrapper .container_inner .blog_holder article{
+        width: 48%;
+        margin: 0; /*5px 0 5px 0;*/
+    }
+}
