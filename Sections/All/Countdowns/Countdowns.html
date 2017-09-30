@@ -29,7 +29,7 @@
 <section class="bg-primary-bs counter-section">
     <div class="container-bs">
         <div class="row">
-            <div class="position-card counter-card counter-card-1 text-center-bs col-md" style="margin-right: 10px">
+            <div class="position-card counter-card counter-card-1 text-center-bs col-md">
                 <div class="position-card-icon">
                     <span>
                         <img class="img-reponsive" src="http://www.supercamp.com/wp-content/uploads/2017/04/heart-atom3.jpg" alt="Logistics Administrator Position">
@@ -37,11 +37,29 @@
                 </div>
                 <h3 class="position-card-heading">Day 1 of SuperCamp 2018!</h3>
                 <span class="position-card-sub-heading">The campers are coming, the campers are coming...</span>
+                <div id="CountdownHolder" class="row">
+                    <div class="col-xs-6 col-md-3">
+                        <div id="DateCountdownDAYS" data-date="2018-06-25 09:00:00" style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div id="DateCountdownHOURS" data-date="2018-06-25 09:00:00" style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div id="DateCountdownMINUTES" data-date="2018-06-25 09:00:00" style="width: 100%;">
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-md-3">
+                        <div id="DateCountdownSECONDS" data-date="2018-06-25 09:00:00" style="width: 100%;">
+                        </div>
+                    </div>
+                </div>
                 <div id="DateCountdown" data-date="2018-06-25 09:00:00" style="width: 100%;">
                 </div>
             </div>
 
-            <div class="position-card counter-card counter-card-2 text-center-bs col-md" style="margin-left: 10px">
+            <div class="position-card counter-card counter-card-2 text-center-bs col-md">
                 <div class="position-card-icon">
                     <span>
                         <img class="img-reponsive" src="http://www.supercamp.com/wp-content/uploads/2017/04/heart-atom3.jpg" alt="Logistics Administrator Position">
@@ -96,6 +114,122 @@
                 "text": "Minutes",
                 "color": "#BBFFBB",
                 "show": true
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": true
+            }
+        }
+    });
+
+    $("#DateCountdownDAYS").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": true
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": false
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": false
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": false
+            }
+        }
+    });
+
+    $("#DateCountdownHOURS").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": false
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": true
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": false
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": false
+            }
+        }
+    });
+
+    $("#DateCountdownMINUTES").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": false
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": false
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": true
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": false
+            }
+        }
+    });
+
+    $("#DateCountdownSECONDS").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": false
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": false
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": false
             },
             "Seconds": {
                 "text": "Seconds",
