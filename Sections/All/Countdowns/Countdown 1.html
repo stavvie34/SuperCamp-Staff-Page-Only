@@ -12,7 +12,7 @@
         border: 15px solid #97ABBD;
     }
     
-    @media only screen and (min-device-width: 768px) {
+    @media only screen and (min-device-width: 769px) {
         .mobile-countdown-holder {
             display: none;
         }
@@ -28,19 +28,17 @@
 <section class="bg-secondary-bs">
     <div class="container-bs">
         <div>
-            <div class="position-card col-md-8-bs col-md-offset-2-bs text-center-bs">
+            <div class="position-card col-sm-10-bs col-sm-offset-1-bs text-center-bs">
                 <div class="position-card-icon position-card-icon-secondary">
                     <span>
-          <img class="img-reponsive" src="http://www.supercamp.com/wp-content/uploads/2017/04/heart-atom3.jpg" alt="Logistics Administrator Position">
+          <img class="img-reponsive" src="http://www.supercamp.com/Staff_files/Assets/svg/Rocket.svg" alt="Logistics Administrator Position">
         </span>
                 </div>
                 <h3 class="position-card-heading">Day 1 of SuperCamp 2018!</h3>
                 <span class="position-card-sub-heading">The campers are coming, the campers are coming...</span>
                 <div id="CountdownHolder" class="mobile-countdown-holder">
-                    <div id="DateCountdownDAYS" class="col-xs-6 col-md-3" data-date="2018-06-25 09:00:00" style="width: 100%;"></div>
-                    <div id="DateCountdownHOURS" class="col-xs-6 col-md-3" data-date="2018-06-25 09:00:00" style="width: 25%;"></div>
-                    <div id="DateCountdownMINUTES" class="col-xs-6 col-md-3" data-date="2018-06-25 09:00:00" style="width: 25%;"></div>
-                    <div id="DateCountdownSECONDS" class="col-xs-6 col-md-3" data-date="2018-06-25 09:00:00" style="width: 25%;"></div>
+                    <div id="DateCountdownDayHour" data-date="2018-06-25 09:00:00" style="width: 100%;"></div>
+                    <div id="DateCountdownMinuteSecond" data-date="2018-06-25 09:00:00" style="width: 100%;"></div>
                 </div>
                 <div id="DateCountdown" class="large-countdown-holder" data-date="2018-06-25 09:00:00" style="width: 100%;">
                 </div>
@@ -186,6 +184,64 @@
                 "text": "Minutes",
                 "color": "#BBFFBB",
                 "show": false
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": true
+            }
+        }
+    });
+
+    $("#DateCountdownDayHour").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": true
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": true
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": false
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": false
+            }
+        }
+    });
+
+    $("#DateCountdownMinuteSecond").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": false
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": false
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": true
             },
             "Seconds": {
                 "text": "Seconds",

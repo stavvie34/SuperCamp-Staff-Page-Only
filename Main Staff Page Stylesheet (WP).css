@@ -1145,18 +1145,18 @@ a.icon-link {
 .col-sm-9-bs,
 .col-md-9-bs,
 .col-lg-9-bs,
-.col-xs-1-bs0-bs,
-.col-sm-1-bs0,
-.col-md-1-bs0-bs,
-.col-lg-1-bs0-bs,
-.col-xs-1-bs1-bs,
-.col-sm-1-bs1-bs,
-.col-md-1-bs1-bs,
-.col-lg-1-bs1-bs,
-.col-xs-1-bs2-bs,
-.col-sm-1-bs2-bs,
-.col-md-1-bs2-bs,
-.col-lg-1-bs2-bs {
+.col-xs-10-bs,
+.col-sm-10-bs,
+.col-md-10-bs,
+.col-lg-10-bs,
+.col-xs-11-bs,
+.col-sm-11-bs,
+.col-md-11-bs,
+.col-lg-11-bs,
+.col-xs-12-bs,
+.col-sm-12-bs,
+.col-md-12-bs,
+.col-lg-12-bs {
     position: relative;
     min-height: 1px;
     padding-right: 15px;
@@ -1172,21 +1172,21 @@ a.icon-link {
 .col-xs-7-bs,
 .col-xs-8-bs,
 .col-xs-9-bs,
-.col-xs-1-bs0-bs,
-.col-xs-1-bs1-bs,
-.col-xs-1-bs2-bs {
+.col-xs-10-bs,
+.col-xs-11-bs,
+.col-xs-12-bs {
     float: left;
 }
 
-.col-xs-1-bs2-bs {
+.col-xs-12-bs {
     width: 100%;
 }
 
-.col-xs-1-bs1-bs {
+.col-xs-11-bs {
     width: 91.66666667%;
 }
 
-.col-xs-1-bs0-bs {
+.col-xs-10-bs {
     width: 83.33333333%;
 }
 
@@ -1401,18 +1401,18 @@ a.icon-link {
     .col-sm-7-bs,
     .col-sm-8-bs,
     .col-sm-9-bs,
-    .col-sm-1-bs0,
-    .col-sm-1-bs1-bs,
-    .col-sm-1-bs2-bs {
+    .col-sm-10-bs,
+    .col-sm-11-bs,
+    .col-sm-12-bs {
         float: left;
     }
-    .col-sm-1-bs2-bs {
+    .col-sm-12-bs {
         width: 100%;
     }
-    .col-sm-1-bs1-bs {
+    .col-sm-11-bs {
         width: 91.66666667%;
     }
-    .col-sm-1-bs0 {
+    .col-sm-10-bs {
         width: 83.33333333%;
     }
     .col-sm-9-bs {
@@ -1571,18 +1571,18 @@ a.icon-link {
     .col-md-7-bs,
     .col-md-8-bs,
     .col-md-9-bs,
-    .col-md-1-bs0-bs,
-    .col-md-1-bs1-bs,
-    .col-md-1-bs2-bs {
+    .col-md-10-bs,
+    .col-md-11-bs,
+    .col-md-12-bs {
         float: left;
     }
-    .col-md-1-bs2-bs {
+    .col-md-12-bs {
         width: 100%;
     }
-    .col-md-1-bs1-bs {
+    .col-md-11-bs {
         width: 91.66666667%;
     }
-    .col-md-1-bs0-bs {
+    .col-md-10-bs {
         width: 83.33333333%;
     }
     .col-md-9-bs {
@@ -1741,18 +1741,18 @@ a.icon-link {
     .col-lg-7-bs,
     .col-lg-8-bs,
     .col-lg-9-bs,
-    .col-lg-1-bs0-bs,
-    .col-lg-1-bs1-bs,
-    .col-lg-1-bs2-bs {
+    .col-lg-10-bs,
+    .col-lg-11-bs,
+    .col-lg-11-bs {
         float: left;
     }
-    .col-lg-1-bs2-bs {
+    .col-lg-12-bs {
         width: 100%;
     }
-    .col-lg-1-bs1-bs {
+    .col-lg-11-bs {
         width: 91.66666667%;
     }
-    .col-lg-1-bs0-bs {
+    .col-lg-10-bs {
         width: 83.33333333%;
     }
     .col-lg-9-bs {
