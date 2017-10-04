@@ -239,27 +239,27 @@
     background: rgba(230, 132, 107, 0);
 }
 
-.ch-img-1 {
-    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/MeganCardFlip5.jpg);
+.ch-img-CF {
+    background-image: url(http://www.supercamp.com/wp-content/uploads/2017/10/Cheyenne-Foster-Card2.jpg);
 }
 
-.ch-img-2 {
-    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/CharlesCardFlip4.jpg);
+.ch-img-SF {
+    background-image: url(http://www.supercamp.com/wp-content/uploads/2017/10/Skyler-Foster-Card.jpg);
 }
 
-.ch-img-3 {
-    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/SpencerCardFlip4.jpg);
+.ch-img-MK {
+    background-image: url(http://www.supercamp.com/wp-content/uploads/2017/10/Megan-Kennedy-Card.jpg);
 }
 
-.ch-img-4 {
-    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/AlexCardFlip4.jpg);
+.ch-img-AL {
+    background-image: url(http://www.supercamp.com/wp-content/uploads/2017/10/Alex-Lee-Card.jpg);
 }
 
-.ch-img-5 {
-    background-image: url(http://www.supercamp.com/wp-content/uploads/2016/12/KatieCardFlip1.jpg);
+.ch-img-CS {
+    background-image: url(http://www.supercamp.com/wp-content/uploads/2017/10/Charles-Smith-Card.jpg);
 }
 
-.ch-img-6 {
+.ch-img-C {
     background-image: url(http://www.supercamp.com/wp-content/uploads/2017/01/CustomerServiceCardFlip.jpg);
 }
 
@@ -3182,3 +3182,33 @@ a.staff-slider-btn:hover {
   }
 }
 */
+
+.position-card-icon-secondary img {
+    border: 15px solid #97ABBD;
+}
+
+.col-sm-offset-1-5-bs {
+    margin-left: 8.3333333333333%;
+}
+
+.col-sm-5-5-bs {
+    width: 45.833333333333333333333333%;
+}
+
+@media only screen and (min-device-width: 769px) {
+    .mobile-countdown-holder {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 768px) {
+    .large-countdown-holder {
+        display: none;
+    }
+}
+
+@media only screen and (max-device-width: 425px) {
+    .position-card-2 {
+        margin-top: 50px;
+    }
+}
