@@ -5,6 +5,8 @@
   -webkit-transform: translateY(5px);
   transform: translateY(5px);
   margin-bottom: 0;
+  font-size: 1.1em;
+  letter-spacing: 1px;
 }
 .tabs > li {
   transition-duration: .25s;
