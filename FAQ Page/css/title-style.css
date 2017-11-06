@@ -116,12 +116,12 @@ General Style
 .cd-intro-content p,
 .cd-intro-content .cd-btn {
   opacity: 0;
-  -webkit-animation-duration: 0.8s;
-  -moz-animation-duration: 0.8s;
-  animation-duration: 0.8s;
-  -webkit-animation-delay: 0.3s;
-  -moz-animation-delay: 0.3s;
-  animation-delay: 0.3s;
+  -webkit-animation-duration: 1.6s;
+  -moz-animation-duration: 1.6s;
+  animation-duration: 1.6s;
+  -webkit-animation-delay: 1.1s;
+  -moz-animation-delay: 1.1s;
+  animation-delay: 1.1s;
   -webkit-animation-fill-mode: forwards;
   -moz-animation-fill-mode: forwards;
   animation-fill-mode: forwards;
@@ -196,12 +196,12 @@ Reveal
 
 .reveal.cd-intro-content h1::after,
 .reveal.cd-intro-content p {
-  -webkit-animation-duration: 0.4s;
-  -moz-animation-duration: 0.4s;
-  animation-duration: 0.4s;
-  -webkit-animation-delay: 0.7s;
-  -moz-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-duration: 1.2s;
+  -moz-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 .reveal.cd-intro-content .action-wrapper {
@@ -217,9 +217,9 @@ Reveal
   height: 3px;
   width: 100%;
   background-color: #202e4a;
-  -webkit-animation: cd-loading 0.4s 0.3s backwards;
-  -moz-animation: cd-loading 0.4s 0.3s backwards;
-  animation: cd-loading 0.4s 0.3s backwards;
+  -webkit-animation: cd-loading 1.2s 1.1s backwards;
+  -moz-animation: cd-loading 1.2s 1.1s backwards;
+  animation: cd-loading 1.2s 1.1s backwards;
 }
 .reveal.cd-intro-content .action-wrapper .cd-btn {
   display: block;
@@ -387,9 +387,9 @@ Mask
   height: 2px;
   width: calc(100% + 2em);
   background-color: #ffffff;
-  -webkit-animation: cd-loading-mask 1s 0.3s both;
-  -moz-animation: cd-loading-mask 1s 0.3s both;
-  animation: cd-loading-mask 1s 0.3s both;
+  -webkit-animation: cd-loading-mask 1.8s 1.1s both;
+  -moz-animation: cd-loading-mask 1.8s 1.1s both;
+  animation: cd-loading-mask 1.8s 1.1s both;
 }
 @media only screen and (min-width: 768px) {
   .mask.cd-intro-content h1 {
@@ -416,12 +416,12 @@ Mask
 
 .mask.cd-intro-content h1::after,
 .mask.cd-intro-content p {
-  -webkit-animation-duration: 0.4s;
-  -moz-animation-duration: 0.4s;
-  animation-duration: 0.4s;
-  -webkit-animation-delay: 0.7s;
-  -moz-animation-delay: 0.7s;
-  animation-delay: 0.7s;
+  -webkit-animation-duration: 1.2s;
+  -moz-animation-duration: 1.2s;
+  animation-duration: 1.2s;
+  -webkit-animation-delay: 1.5s;
+  -moz-animation-delay: 1.5s;
+  animation-delay: 1.5s;
 }
 
 .mask.cd-intro-content .action-wrapper {
