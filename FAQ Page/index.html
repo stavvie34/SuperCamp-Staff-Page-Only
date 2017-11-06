@@ -5,16 +5,29 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-
+	
+	<link rel="stylesheet" href="css/title-style.css"> <!-- Title style -->
 	<link rel="stylesheet" href="css/reset.css"> <!-- CSS reset -->
 	<link rel="stylesheet" href="css/style.css"> <!-- Resource style -->
+	
 	<script src="js/modernizr.js"></script> <!-- Modernizr -->
 	<title>FAQ Template | CodyHouse</title>
 </head>
 <body>
-<header>
-	<h1>FAQ Template</h1>
-</header>
+
+<!-- Title -->
+<section class="cd-intro">
+	<div class="cd-intro-content mask">
+		<h1 data-content="Frequently Asked Questions"><span>Frequently Asked Questions</span></h1>
+		<div class="action-wrapper">
+			<p>
+				<a href="#basics" class="cd-btn main-action">View</a>
+			</p>
+		</div>
+	</div>
+</section>
+	
+<!-- Sidebar -->	
 <section class="cd-faq">
 	<ul class="cd-faq-categories">
 		<li><a class="selected" href="#basics">Application and Interview Process</a></li>
@@ -27,6 +40,7 @@
 		-->
 	</ul> <!-- cd-faq-categories -->
 
+	<!-- FAQ's -->
 	<div class="cd-faq-items">
 		<ul id="basics" class="cd-faq-group">
 			<li class="cd-faq-title"><h2>Application and Interview Process</h2></li>
@@ -291,5 +305,7 @@
 <script src="js/jquery-2.1.1.js"></script>
 <script src="js/jquery.mobile.custom.min.js"></script>
 <script src="js/main.js"></script> <!-- Resource jQuery -->
+<script src="js/title-main.js"></script> <!-- Title Script -->
+<script src="js/title-jquery-2.1.4.js"></script> <!-- Title JQuery -->
 </body>
 </html>
