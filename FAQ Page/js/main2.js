@@ -85,7 +85,7 @@ jQuery(document).ready(function($){
 				widthValue = faqsCategoriesContainer.width();
 			faqsCategoriesContainer.addClass('is-fixed').css({
 				'left': leftValue,
-				'top': margin-top,
+				'top': 115,
 				'-moz-transform': 'translateZ(0)',
 			    '-webkit-transform': 'translateZ(0)',
 				'-ms-transform': 'translateZ(0)',
