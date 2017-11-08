@@ -1073,5 +1073,12 @@ section {
 
 #faqs a:hover {
 	text-decoration: none;
-	color: inherit;
+}
+
+#questions a:hover {
+	color: #337ab7;
+}
+
+#sidebar-categories a:hover {
+	color: #fff;
 }
