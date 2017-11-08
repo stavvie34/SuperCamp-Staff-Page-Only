@@ -1066,3 +1066,12 @@ section {
 .container {
 	background-color: #fff !important;	
 }
+
+#faqs {
+	padding: 0;
+}
+
+#faqs a:hover {
+	text-decoration: none;
+	color: inherit;
+}
