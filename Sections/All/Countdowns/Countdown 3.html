@@ -1,0 +1,385 @@
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://www.supercamp.com/Staff_files/TimeCircles/inc/TimeCircles.js"></script>
+<link href="http://www.supercamp.com/Staff_files/TimeCircles/inc/TimeCirclesSC.css" rel="stylesheet">
+
+<!-- INTRODUCES FLEXBOX SOLUTION. PLEASE REMOVE FROM THIS SNIPPET AND MOVE TO A DIFFERENT SECTION LATER
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css" type="text/css">
+-->
+
+
+<!-- Contains SC and PTW -->
+
+<style>
+    @media only screen and (max-device-width: 425px) {
+        .countdown4,
+        .countdown5 {
+            width: 100%;
+        }
+        .countdown5 {
+            margin-left: 0px;
+            margin-top: 75px;
+        }
+    }
+</style>
+
+<section class="bg-primary-bs">
+    <div class="container-bs">
+
+        <div>
+            <div class="position-card col-sm-5-5-bs text-center-bs countdown4">
+                <div class="position-card-icon position-card-icon-primary">
+                    <span>
+                        <img class="img-reponsive" src="http://www.supercamp.com/Staff_files/Assets/svg/Rocket.svg">
+                    </span>
+                </div>
+                <h3 class="position-card-heading">Day 1 of SuperCamp 2018!</h3>
+                <span class="position-card-sub-heading">he campers are coming, and SuperCamp is on it's way to another great summer! <br>Day 1 of the first camp begins <strong>June 25th</strong>!</span>
+                <div id="CountdownHolder" class="mobile-countdown-holder">
+                    <div id="DateCountdownDayHour4" data-date="2018-06-25 09:00:00" style="width: 100%;"></div>
+                    <div id="DateCountdownMinuteSecond4" data-date="2018-06-25 09:00:00" style="width: 100%;"></div>
+                </div>
+                <div id="DateCountdown" class="large-countdown-holder" data-date="2018-06-25 09:00:00" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div class="position-card position-card-2 col-sm-5-5-bs col-sm-offset-1-5-bs text-center-bs countdown5">
+                <div class="position-card-icon position-card-icon-primary">
+                    <span>
+                        <img class="img-reponsive" src="http://www.supercamp.com/Staff_files/Assets/svg/ptw_1.svg">
+                    </span>
+                </div>
+                <h3 class="position-card-heading">PTW 2018</h3>
+                <span class="position-card-sub-heading">It's almost time for this year's Paving The Way!<br>This session takes place <strong>January 27<sup>th</sup></strong>.</span>
+                <div id="CountdownHolder" class="mobile-countdown-holder">
+                    <div id="DateCountdownDayHour5" data-date="2018-01-27 00:00:00" style="width: 100%;"></div>
+                    <div id="DateCountdownMinuteSecond5" data-date="2018-01-27 00:00:00" style="width: 100%;"></div>
+                </div>
+                <div id="DateCountdown" class="large-countdown-holder" data-date="2018-01-27 00:00:00" style="width: 100%;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script>
+    $("#DateCountdown4, #DateCountdown5").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": true
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": true
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": true
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": true
+            }
+        }
+    });
+
+    $("#DateCountdownDAYS").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": true
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": false
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": false
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": false
+            }
+        }
+    });
+
+    $("#DateCountdownHOURS").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": false
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": true
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": false
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": false
+            }
+        }
+    });
+
+    $("#DateCountdownMINUTES").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": false
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": false
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": true
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": false
+            }
+        }
+    });
+
+    $("#DateCountdownSECONDS").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": false
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": false
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": false
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": true
+            }
+        }
+    });
+
+    $("#DateCountdownDayHour").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": true
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": true
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": false
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": false
+            }
+        }
+    });
+
+    $("#DateCountdownMinuteSecond").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": false
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": false
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": true
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": true
+            }
+        }
+    });
+
+    $("#DateCountdownDayHour4").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": true
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": true
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": false
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": false
+            }
+        }
+    });
+
+    $("#DateCountdownMinuteSecond4").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": false
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": false
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": true
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": true
+            }
+        }
+    });
+
+    $("#DateCountdownDayHour5").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": true
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": true
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": false
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": false
+            }
+        }
+    });
+
+    $("#DateCountdownMinuteSecond5").TimeCircles({
+        "animation": "smooth",
+        "bg_width": 0.6,
+        "fg_width": 0.06666666666666667,
+        "circle_bg_color": "#60686F",
+        "time": {
+            "Days": {
+                "text": "Days",
+                "color": "#FFCC66",
+                "show": false
+            },
+            "Hours": {
+                "text": "Hours",
+                "color": "#99CCFF",
+                "show": false
+            },
+            "Minutes": {
+                "text": "Minutes",
+                "color": "#BBFFBB",
+                "show": true
+            },
+            "Seconds": {
+                "text": "Seconds",
+                "color": "#FF9999",
+                "show": true
+            }
+        }
+    });
+</script>
