@@ -6512,3 +6512,14 @@ a.staff-slider-btn:hover {
 .q_logo a {
     visibility: visible;
 }
+
+@media only screen and (max-device-width: 425px) {
+	.countdown2, .countdown3, .countdown4,
+	.countdown5 {
+		width: 100%;
+	}
+	.countdown3, .countdown5 {
+		margin-left: 0px;
+		margin-top: 75px;
+	}
+}
