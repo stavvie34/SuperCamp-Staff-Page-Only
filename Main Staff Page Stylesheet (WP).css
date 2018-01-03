@@ -6519,7 +6519,7 @@ a.staff-slider-btn:hover {
 		width: 100%;
 	}
 	.countdown3, .countdown5 {
-		margin-left: 0px;
+		margin-left: 0;
 		margin-top: 75px;
 	}
 }
