@@ -3213,22 +3213,6 @@ a.staff-slider-btn:hover {
     }
 }
 
-.cool-heading {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 6.25em;
-    letter-spacing: -0.05em;
-}
-
-.cool-subheading {
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.666em;
-    letter-spacing: 0.19em;
-}@media (min-width: 992px) {
-    .mobile-headers-row {
-        display: none;
-    }
-}
-
 .scroll-btn-hdr {
     display: block;
     position: absolute;
