@@ -19,15 +19,3 @@
 #back_to_top span {
     background: #e8e8e8;
 }
-
-@media (max-width: 768px) {
-    .item p {
-        line-height: 1.8em !important;
-    }
-}
-
-@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
-    .emptyspace6 {
-        height: 50px !important;
-    }
-}
