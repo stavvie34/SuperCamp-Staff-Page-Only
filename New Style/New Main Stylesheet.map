@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "../Style/New Main Stylesheet.css",
+	"sources": [
+		"../Style/New Main Stylesheet.scss",
+		"../Style/_countdowns.scss"
+	],
+	"sourcesContent": [
+		"@import 'countdowns';\r\n",
+		"@media only screen and (min-device-width: 769px) {\r\n    .mobile-countdown-holder {\r\n        display: none;\r\n    }\r\n}\r\n\r\n@media only screen and (max-device-width: 768px) {\r\n    .large-countdown-holder {\r\n        display: none;\r\n    }\r\n}\r\n\r\n@media only screen and (max-device-width: 768px) {\r\n    .large-countdown-holder {\r\n        display: none;\r\n    }\r\n}\r\n\r\n.time_circles {\r\n    position: relative;\r\n    width: 100%;\r\n    height: 100%;\r\n}\r\n\r\n.time_circles>div {\r\n    position: absolute;\r\n    text-align: center;\r\n}\r\n\r\n.time_circles>div>h4 {\r\n    margin: 0px;\r\n    padding: 0px;\r\n    text-align: center;\r\n    text-transform: uppercase;\r\n    letter-spacing: normal;\r\n}\r\n\r\n.time_circles>div>span {\r\n    display: block;\r\n    width: 100%;\r\n    text-align: center;\r\n    font-size: 300%;\r\n    margin-top: 0.4em;\r\n    font-weight: bold;\r\n}\r\n\r\n@media only screen and (max-device-width: 425px) {\r\n\t.countdown2, .countdown3, .countdown4,\r\n\t.countdown5 {\r\n\t\twidth: 100%;\r\n\t}\r\n\t.countdown3, .countdown5 {\r\n\t\tmargin-left: 0;\r\n\t\tmargin-top: 75px;\r\n\t}\r\n}\r\n\r\n@media only screen and (max-device-width: 425px) {\r\n    .position-card-2 {\r\n        margin-top: 50px;\r\n    }\r\n}"
+	],
+	"mappings": "ACAA,MAAM,MAAD,MAAM,MAAM,gBAAgB,EAAE,KAAK;;EACpC,AAAA,wBAAwB,CAAC;IACrB,OAAO,EAAE,IAAK;GACjB;;;AAGL,MAAM,MAAD,MAAM,MAAM,gBAAgB,EAAE,KAAK;;EACpC,AAAA,uBAAuB,CAAC;IACpB,OAAO,EAAE,IAAK;GACjB;;;AAGL,MAAM,MAAD,MAAM,MAAM,gBAAgB,EAAE,KAAK;;EACpC,AAAA,uBAAuB,CAAC;IACpB,OAAO,EAAE,IAAK;GACjB;;;;AAGL,AAAA,aAAa,CAAC;EACV,QAAQ,EAAE,QAAS;EACnB,KAAK,EAAE,IAAK;EACZ,MAAM,EAAE,IAAK;CAChB;;;AAED,AAAc,aAAD,GAAC,GAAG,CAAC;EACd,QAAQ,EAAE,QAAS;EACnB,UAAU,EAAE,MAAO;CACtB;;;AAED,AAAkB,aAAL,GAAC,GAAG,GAAC,EAAE,CAAC;EACjB,MAAM,EAAE,GAAI;EACZ,OAAO,EAAE,GAAI;EACb,UAAU,EAAE,MAAO;EACnB,cAAc,EAAE,SAAU;EAC1B,cAAc,EAAE,MAAO;CAC1B;;;AAED,AAAkB,aAAL,GAAC,GAAG,GAAC,IAAI,CAAC;EACnB,OAAO,EAAE,KAAM;EACf,KAAK,EAAE,IAAK;EACZ,UAAU,EAAE,MAAO;EACnB,SAAS,EAAE,IAAK;EAChB,UAAU,EAAE,KAAM;EAClB,WAAW,EAAE,IAAK;CACrB;;AAED,MAAM,MAAD,MAAM,MAAM,gBAAgB,EAAE,KAAK;;EACvC,AAAA,WAAW,EAAE,AAAA,WAAW,EAAE,AAAA,WAAW;EACrC,AAAA,WAAW,CAAC;IACX,KAAK,EAAE,IAAK;GACZ;;EACD,AAAA,WAAW,EAAE,AAAA,WAAW,CAAC;IACxB,WAAW,EAAE,CAAE;IACf,UAAU,EAAE,IAAK;GACjB;;;AAGF,MAAM,MAAD,MAAM,MAAM,gBAAgB,EAAE,KAAK;;EACpC,AAAA,gBAAgB,CAAC;IACb,UAAU,EAAE,IAAK;GACpB",
+	"names": []
+}
