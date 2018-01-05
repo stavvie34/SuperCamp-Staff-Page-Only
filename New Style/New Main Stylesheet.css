@@ -1,1 +1,209 @@
-@media only screen and (min-device-width: 769px){.mobile-countdown-holder{display:none}}@media only screen and (max-device-width: 768px){.large-countdown-holder{display:none}}@media only screen and (max-device-width: 768px){.large-countdown-holder{display:none}}.time_circles{position:relative;width:100%;height:100%}.time_circles>div{position:absolute;text-align:center}.time_circles>div>h4{margin:0px;padding:0px;text-align:center;text-transform:uppercase;letter-spacing:normal}.time_circles>div>span{display:block;width:100%;text-align:center;font-size:300%;margin-top:0.4em;font-weight:bold}@media only screen and (max-device-width: 425px){.countdown2,.countdown3,.countdown4,.countdown5{width:100%}.countdown3,.countdown5{margin-left:0;margin-top:75px}}@media only screen and (max-device-width: 425px){.position-card-2{margin-top:50px}}
+/* line 1, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
+.bg-primary-bs {
+  background-color: #45769C;
+}
+
+/* line 5, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
+.bg-secondary-bs {
+  background-color: #97ABBD;
+}
+
+/* line 9, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
+.row-bs .qbutton {
+  margin: 10px 0 0 10px !important;
+}
+
+/* line 13, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
+.row-bs.slider-buttons {
+  position: relative;
+  width: 100vw;
+  left: calc(-50vw + 50%);
+}
+
+/* line 19, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
+#back_to_top span {
+  background: #e8e8e8;
+}
+
+@media (max-width: 768px) {
+  /* line 3, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_media-queries.scss */
+  .item p {
+    line-height: 1.8em !important;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+  /* line 9, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_media-queries.scss */
+  .emptyspace6 {
+    height: 50px !important;
+  }
+}
+
+/* line 1, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-item {
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  cursor: default;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px !important;
+}
+
+/* line 13, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-info-wrap,
+.ch-info {
+  position: absolute;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  -o-transition: all 0.4s ease-in-out;
+  -ms-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+  -webkit-perspective: 800px;
+  -moz-perspective: 800px;
+  -o-perspective: 800px;
+  -ms-perspective: 800px;
+  perspective: 800px;
+}
+
+/* line 31, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-info-wrap {
+  top: 20px;
+  left: 20px;
+  background: #f9f9f9 url(http://www.supercamp.com/wp-content/uploads/2016/12/bg.jpg);
+  box-shadow: 0 0 0 20px rgba(255, 255, 255, 0.2), inset 0 0 3px rgba(115, 114, 23, 0.8);
+}
+
+/* line 38, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-info {
+  -webkit-transform-style: preserve-3d;
+  -moz-transform-style: preserve-3d;
+  -o-transform-style: preserve-3d;
+  -ms-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+}
+
+/* line 46, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-info > div {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-position: center center;
+  -webkit-transition: all 0.6s ease-in-out;
+  -moz-transition: all 0.6s ease-in-out;
+  -o-transition: all 0.6s ease-in-out;
+  -ms-transition: all 0.6s ease-in-out;
+  transition: all 0.6s ease-in-out;
+}
+
+/* line 60, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-info .ch-info-front {
+  -webkit-transform-origin: 50% 100%;
+  -moz-transform-origin: 50% 100%;
+  -o-transform-origin: 50% 100%;
+  -ms-transform-origin: 50% 100%;
+  transform-origin: 50% 100%;
+  z-index: 100;
+  box-shadow: inset 2px 1px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* line 70, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-info .ch-info-back {
+  background: rgba(230, 132, 107, 0);
+}
+
+/* line 74, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-img-CF {
+  background-image: url(http://www.supercamp.com/wp-content/uploads/2017/10/Cheyenne-Foster-Card2.jpg);
+}
+
+/* line 78, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-img-SF {
+  background-image: url(http://www.supercamp.com/wp-content/uploads/2017/10/Skyler-Foster-Card.jpg);
+}
+
+/* line 82, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-img-MK {
+  background-image: url(http://www.supercamp.com/wp-content/uploads/2017/10/Megan-Kennedy-Card.jpg);
+}
+
+/* line 86, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-img-AL {
+  background-image: url(http://www.supercamp.com/wp-content/uploads/2017/10/Alex-Lee-Card.jpg);
+}
+
+/* line 90, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-img-CS {
+  background-image: url(http://www.supercamp.com/wp-content/uploads/2017/10/Charles-Smith-Card.jpg);
+}
+
+/* line 94, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-img-C {
+  background-image: url(http://www.supercamp.com/wp-content/uploads/2017/01/CustomerServiceCardFlip.jpg);
+}
+
+/* line 98, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-info h3 {
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 14px;
+  margin: 0 25px;
+  padding: 40px 0 0 0;
+  height: 90px;
+  font-family: "Open Sans", Arial, sans-serif;
+  text-shadow: 0 0 1px #fff, 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* line 110, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-info p {
+  color: #fff;
+  padding: 10px 5px;
+  font-style: italic;
+  margin: 0 30px;
+  font-size: 12px;
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* line 119, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-info p a {
+  display: block;
+  color: #fff;
+  color: rgba(255, 255, 255, 0.7);
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 9px;
+  letter-spacing: 1px;
+  padding-top: 4px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+/* line 132, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-info p a:hover {
+  color: #2196F3;
+}
+
+/* line 136, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-item:hover .ch-info-front {
+  -webkit-transform: rotate3d(1, 0, 0, -180deg);
+  -moz-transform: rotate3d(1, 0, 0, -180deg);
+  -o-transform: rotate3d(1, 0, 0, -180deg);
+  -ms-transform: rotate3d(1, 0, 0, -180deg);
+  transform: rotate3d(1, 0, 0, -180deg);
+  box-shadow: inset 0 0 5px rgba(255, 255, 255, 0.2), inset 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+/* line 145, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_contact-info.scss */
+.ch-item:hover .ch-info-back {
+  background: rgba(0, 0, 0, 0.75);
+}
+
+/*# sourceMappingURL=../New Style/New Main Stylesheet.map */
