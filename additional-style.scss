@@ -1,0 +1,35 @@
+@import 'angled-edges';
+
+
+.bg-secondary-bs { @include angled-edge('outside bottom', 'lower right', #97ABBD)}
+
+
+
+.bg-primary-bs { @include angled-edge('inside bottom', 'upper right', #45769C)}
+
+
+/*
+
+
+
+
+
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+          border-radius: $radius;
+}
+
+.box { @include border-radius(10px); }
+
+
+@mixin angled-edge($location, $hypotenuse, $fill, $height: 100, $width: null)
+
+
+
+angled-edge(location, hypotenuse, fill, width=2800, height=100)
+
+
+
+*/
