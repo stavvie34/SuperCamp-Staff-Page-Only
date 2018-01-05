@@ -1,0 +1,14 @@
+.location-breakdown img {
+    width: 200px;
+    margin-bottom: 20px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    border-radius: 50%;
+}
+
+@media (max-width: 768px) {
+    .location-breakdown {
+        margin-bottom: 50px !important;
+    }
+}

@@ -1,0 +1,83 @@
+@media (min-width: 992px) {
+    .mobile-headers-row {
+        display: none;
+    }
+}
+
+/* COVER STYLE #2 */
+
+.mobile-headers-style-2 {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    width: 100%;
+    position: relative;
+}
+
+.mobile-headers-style-2>.mobile-headers-overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.4);
+    z-index: 4;
+}
+
+.mobile-headers {
+    position: relative;
+    min-height: 525px;
+}
+
+.mobile-headers .mobile-headers-text {
+    position: relative;
+    z-index: 5;
+}
+
+.mobile-headers .mobile-headers-text .full-height {
+    display: table;
+    min-height: 500px;
+}
+
+.mobile-headers .mobile-headers-text .full-height .mobile-headers-intro {
+    display: table-cell;
+    vertical-align: middle;
+    min-height: 500px;
+}
+
+.mobile-headers .mobile-headers-text .cover-text-lead {
+    font-size: 40px;
+    font-family: "Montserrat", Arial, sans-serif;
+    font-weight: 700;
+    color: #fff;
+}
+
+.mobile-headers .mobile-headers-text .cover-text-sublead {
+    font-size: 16px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+}
+
+.mobile-headers .mobile-headers-text .btn-outline {
+    border: 2px solid #fff;
+    color: #fff;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+
+.mobile-headers .mobile-headers-text .btn-outline:hover {
+    color: #fff;
+    background: #1784fb;
+    border-color: #1784fb;
+}
+
+.mobile-headers .mobile-headers-text .btn-outline:hover,
+.mobile-headers .mobile-headers-text .btn-outline:focus,
+.mobile-headers .mobile-headers-text .btn-outline:active {
+    outline: none;
+}
