@@ -1,0 +1,17 @@
+@media only screen and (min-device-width: 768px) and (max-device-width: 992px) and (orientation: portrait) {
+    div.q_percentage_with_icon.easyPieChart {
+        width: 100px !important;
+        height: 100px !important;
+        line-height: 100px !important;
+    }
+}
+
+#steps {
+    opacity: 0.9999999;
+}
+
+@media (max-width: 768px) {
+    #steps {
+        margin-top: 25px;
+    }
+}

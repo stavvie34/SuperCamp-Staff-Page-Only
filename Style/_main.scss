@@ -1,0 +1,56 @@
+.bg-primary-bs {
+    background-color: #45769C;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .emptyspace6 {
+        height: 50px !important;
+    }
+}
+
+.bg-secondary-bs {
+    background-color: #97ABBD;
+}
+
+ul {
+    margin-top: 0;
+}
+
+
+ul li {
+    list-style-type: none;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+[role=button],
+a,
+area,
+button,
+input,
+label,
+select,
+summary,
+textarea {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+}
+
+@media (max-width: 768px) {
+    .item p {
+        line-height: 1.8em !important;
+    }
+}
+
+.row-bs .qbutton {
+    margin: 10px 0 0 10px !important;
+}
+
+.row-bs.slider-buttons {
+    position: relative;
+    width: 100vw;
+    left: calc(-50vw + 50%);
+}

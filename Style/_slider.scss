@@ -7,3 +7,138 @@
 a.staff-slider-btn:hover {
     border: 2px solid #fff;
 }
+
+.pos-hdr-btn-success {
+    background: #45769C;
+    color: #fff;
+    border: 2px solid #45769C;
+}
+
+.pos-hdr-btn {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 10px 20px;
+    line-height: 1.42857;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+a.pos-hdr-btn-success:hover {
+    background: #2E638B;
+    border: 2px solid #2E638B;
+}
+
+a.pos-hdr-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.pos-hdr-btn {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 425px) {
+    .row-bs.slider-buttons {
+        left: 0;
+    }
+    .pos-hdr-btn {
+        margin-bottom: 10px;
+    }
+}
+
+a.pos-hdr-btn-back:hover {
+    background: #6D88A0;
+    border: 2px solid #6D88A0;
+}
+
+/*iPad Portrait and Landscape*/
+
+@media only screen and (min-device-width: 768px)and (max-device-width: 992px) {
+    .q_slider {
+        display: none;
+    }
+}
+
+/*iPhone 6 landscape only and iPhone 6s Lanscape only*/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) and (orientation: landscape) {
+    .q_slider {
+        display: none;
+    }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
+    .q_slider {
+        display: none;
+    }
+}
+
+a.pos-hdr-btn-back:hover {
+    background: #6D88A0;
+    border: 2px solid #6D88A0;
+}
+
+.pos-hdr-btn-success {
+    background: #45769C;
+    color: #fff;
+    border: 2px solid #45769C;
+}
+
+.pos-hdr-btn {
+    margin-right: 4px;
+    margin-bottom: 4px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 12px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-weight: 700;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    border-radius: 4px;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    white-space: nowrap;
+    padding: 10px 20px;
+    line-height: 1.42857;
+    font-weight: bold;
+    vertical-align: top;
+}
+
+a.pos-hdr-btn-success:hover {
+    background: #2E638B;
+    border: 2px solid #2E638B;
+}
+
+a.pos-hdr-btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a.pos-hdr-btn {
+    text-decoration: none;
+}

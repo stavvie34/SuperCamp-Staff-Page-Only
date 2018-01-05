@@ -54,3 +54,9 @@
 		margin-top: 75px;
 	}
 }
+
+@media only screen and (max-device-width: 425px) {
+    .position-card-2 {
+        margin-top: 50px;
+    }
+}
