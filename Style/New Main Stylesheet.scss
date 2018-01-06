@@ -1,8 +1,14 @@
-@import 'pineapple-sass';
+//@import 'pineapple-sass';
 @import 'main-rules';
 @import 'main';
-@import 'contact-info';
+@import 'navbar';
+@import 'logo';
+@import 'mobile';
+@import 'slider';
+@import 'testimonial';
+@import 'position-cards';
+@import 'responsive-dates-and-locations';
 @import 'countdowns';
-@import 'dates-and-locations';
+@import 'contact-info';
 
 @import 'media-queries';
