@@ -6,11 +6,11 @@
     background-color: $secondary-color;
 }
 
-.row-bs .qbutton {
+.row .qbutton {
     margin: 10px 0 0 10px !important;
 }
 
-.row-bs.slider-buttons {
+.row.slider-buttons {
     position: relative;
     width: 100vw;
     left: calc(-50vw + 50%);
