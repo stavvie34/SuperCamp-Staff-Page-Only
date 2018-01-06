@@ -80,6 +80,21 @@ section {
   display: block;
 }
 
+/* line 72, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
+.footer_top_holder {
+  background-color: #262626;
+}
+
+/* line 76, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
+.footer_bottom_holder {
+  background-color: #1b1b1b;
+}
+
+/* line 80, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
+cards a:hover, contact-info a:hover {
+  text-decoration: none;
+}
+
 /* line 1, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_navbar.scss */
 .nav {
   margin-bottom: 0;
@@ -477,7 +492,7 @@ a.pos-hdr-btn {
 }
 
 /* line 111, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_testimonial.scss */
-.carousel-indicators {
+.carousel-indicators-main {
   position: absolute;
   bottom: 10px;
   left: 50%;
@@ -490,7 +505,7 @@ a.pos-hdr-btn {
 }
 
 /* line 123, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_testimonial.scss */
-.carousel-indicators li {
+.carousel-indicators-main li {
   display: inline-block;
   width: 10px;
   height: 10px;
@@ -504,7 +519,7 @@ a.pos-hdr-btn {
 }
 
 /* line 136, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_testimonial.scss */
-.carousel-indicators .active {
+.carousel-indicators-main .active {
   margin: 0;
   width: 12px;
   height: 12px;
@@ -538,7 +553,7 @@ a.pos-hdr-btn {
     padding-bottom: 30px;
   }
   /* line 166, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_testimonial.scss */
-  .carousel-indicators {
+  .carousel-indicators-main {
     bottom: 20px;
   }
 }
@@ -551,7 +566,7 @@ a.pos-hdr-btn {
 }
 
 /* line 177, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_testimonial.scss */
-.carousel-indicators {
+.carousel-indicators-main {
   display: block !important;
 }
 
@@ -585,12 +600,12 @@ a.pos-hdr-btn {
 }
 
 /* line 212, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_testimonial.scss */
-#fade-quote-carousel.carousel .carousel-indicators {
+#fade-quote-carousel.carousel .carousel-indicators-main {
   bottom: 10px;
 }
 
 /* line 216, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_testimonial.scss */
-#fade-quote-carousel.carousel .carousel-indicators > li {
+#fade-quote-carousel.carousel .carousel-indicators-main > li {
   background-color: #e84a64;
   border: none;
 }
@@ -739,11 +754,6 @@ a.pos-hdr-btn {
 }
 
 /* line 121, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
-.services h3 a {
-  color: #000;
-}
-
-/* line 125, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
 .services .icon {
   width: 90px;
   height: 90px;
@@ -762,13 +772,13 @@ a.pos-hdr-btn {
 }
 
 @media screen and (max-width: 992px) {
-  /* line 143, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
+  /* line 139, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
   .services .icon {
     margin: 0 auto 30px auto;
   }
 }
 
-/* line 148, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
+/* line 144, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
 .services .icon i {
   display: table-cell;
   vertical-align: middle;
@@ -778,7 +788,7 @@ a.pos-hdr-btn {
   color: #fff;
 }
 
-/* line 158, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
+/* line 154, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
 .services:hover .icon,
 .services:focus .icon {
   background: #3886C3;
@@ -789,32 +799,25 @@ a.pos-hdr-btn {
   box-shadow: 0px 5px 0px 0px rgba(0, 0, 0, 0.13);
 }
 
-/* line 168, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
-.services:hover h3 a,
-.services:focus h3 a {
-  /*color: #F95959;*/
-  color: #5e2b7c;
-}
-
-/* line 174, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
+/* line 164, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
 .card-heading {
   margin-bottom: 5em !important;
 }
 
-/* line 178, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
+/* line 168, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
 #cards {
   padding: 7em 0;
   clear: both;
 }
 
-/* line 183, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
+/* line 173, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
 a.icon-link {
   height: 100%;
   width: 100%;
   display: inherit;
 }
 
-/* line 189, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
+/* line 179, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
 .position-card-heading {
   margin-top: 30px;
   margin-bottom: 10px;
@@ -824,7 +827,7 @@ a.icon-link {
   color: #333;
 }
 
-/* line 198, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
+/* line 188, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_position-cards.scss */
 .position-card-sub-heading {
   font-size: 16px;
   color: #8f989f;
