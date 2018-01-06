@@ -53,9 +53,18 @@ p.main {
 }
 
 .container {
-	background-color: transparent;
+	background-color: transparent !important;
 }
 
-.carousel-inner {
-    position: fixed;
+.skrollable-between {
+    position: fixed !important;
+}
+
+section {
+	padding: 100px 0;
+    padding-top: 100px;
+    padding-right: 0px;
+    padding-bottom: 100px;
+    padding-left: 0px;
+    display: block;
 }
