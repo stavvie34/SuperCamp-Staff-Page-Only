@@ -1,10 +1,10 @@
 /* line 1, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
-.bg-primary {
+.primary-color {
   background-color: #45769C;
 }
 
 /* line 5, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
-.bg-secondary {
+.secondary-color {
   background-color: #97ABBD;
 }
 
@@ -48,7 +48,7 @@ p.main {
 }
 
 /* line 43, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
-.section-heading {
+.section-heading-main {
   margin-top: 0;
   font-size: 2.3em;
   text-transform: uppercase;
