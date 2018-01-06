@@ -62,12 +62,22 @@ p.main {
 
 /* line 55, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
 .container {
-  background-color: transparent;
+  background-color: transparent !important;
 }
 
 /* line 59, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
-.carousel-inner {
-  position: fixed;
+.skrollable-between {
+  position: fixed !important;
+}
+
+/* line 63, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
+section {
+  padding: 100px 0;
+  padding-top: 100px;
+  padding-right: 0px;
+  padding-bottom: 100px;
+  padding-left: 0px;
+  display: block;
 }
 
 /* line 1, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_navbar.scss */
