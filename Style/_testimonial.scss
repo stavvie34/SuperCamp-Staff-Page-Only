@@ -108,7 +108,7 @@
     left: 100%;
 }
 
-.carousel-indicators {
+.carousel-indicators-main {
     position: absolute;
     bottom: 10px;
     left: 50%;
@@ -120,7 +120,7 @@
     text-align: center;
 }
 
-.carousel-indicators li {
+.carousel-indicators-main li {
     display: inline-block;
     width: 10px;
     height: 10px;
@@ -133,7 +133,7 @@
     background-color: transparent;
 }
 
-.carousel-indicators .active {
+.carousel-indicators-main .active {
     margin: 0;
     width: 12px;
     height: 12px;
@@ -163,7 +163,7 @@
         right: 20%;
         padding-bottom: 30px;
     }
-    .carousel-indicators {
+    .carousel-indicators-main {
         bottom: 20px;
     }
 }
@@ -174,7 +174,7 @@
     margin-bottom: 30px;
 }
 
-.carousel-indicators {
+.carousel-indicators-main {
     display: block !important;
 }
 
@@ -209,11 +209,11 @@
     transition-property: opacity;
 }
 
-#fade-quote-carousel.carousel .carousel-indicators {
+#fade-quote-carousel.carousel .carousel-indicators-main {
     bottom: 10px;
 }
 
-#fade-quote-carousel.carousel .carousel-indicators>li {
+#fade-quote-carousel.carousel .carousel-indicators-main>li {
     background-color: #e84a64;
     border: none;
 }
