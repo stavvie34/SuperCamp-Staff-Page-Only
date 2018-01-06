@@ -1,22 +1,40 @@
 ////////////////
 //From Main.scss
 ////////////////
-@media (max-width: 768px) {
-    .item p {
-        line-height: 1.8em !important;
-    }
-}
-
 @media only screen and (min-device-width: 320px) and (max-device-width: 768px) {
     .emptyspace6 {
         height: 50px !important;
     }
 }
 
+@media (max-width: 768px) {
+    .item p {
+        line-height: 1.8em !important;
+    }
+}
+
+
 
 /////////////////////
 //From Coundowns.scss
 /////////////////////
+@media only screen and (max-device-width: 425px) {
+	.countdown2, .countdown3, .countdown4,
+	.countdown5 {
+		width: 100%;
+	}
+	.countdown3, .countdown5 {
+		margin-left: 0;
+		margin-top: 75px;
+	}
+}
+
+@media only screen and (max-device-width: 425px) {
+    .position-card-2 {
+        margin-top: 50px;
+    }
+}
+
 @media only screen and (min-device-width: 769px) {
     .mobile-countdown-holder {
         display: none;
@@ -32,23 +50,6 @@
 @media only screen and (max-device-width: 768px) {
     .large-countdown-holder {
         display: none;
-    }
-}
-
-@media only screen and (max-device-width: 425px) {
-	.countdown2, .countdown3, .countdown4,
-	.countdown5 {
-		width: 100%;
-	}
-	.countdown3, .countdown5 {
-		margin-left: 0;
-		margin-top: 75px;
-	}
-}
-
-@media only screen and (max-device-width: 425px) {
-    .position-card-2 {
-        margin-top: 50px;
     }
 }
 
