@@ -503,6 +503,8 @@ Hover Tests
 6. Modal
 --------------------*/
 
+/* Remove modal styles. 
+
 .modal-content {
     border-radius: 0;
 }
@@ -546,6 +548,8 @@ Hover Tests
     margin-right: auto;
     padding: 5px 10px;
 }
+
+*/
 
 @media (min-width:768px) {
     .navbar-default {
