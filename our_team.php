@@ -10,24 +10,24 @@ global $wp_query;
 wp_register_style('bootstrap-style', get_stylesheet_directory_uri() . '/assets/css/bootstrap.css', array(), '1');
 		wp_enqueue_style('bootstrap-style');
 
-wp_register_style('magnific-popup-style', get_stylesheet_directory_uri() . '/assets/css/magnific-popup.css', array(), '1');
-		wp_enqueue_style('magnific-popup-style');
+//wp_register_style('magnific-popup-style', get_stylesheet_directory_uri() . '/assets/css/magnific-popup.css', array(), '1');
+		//wp_enqueue_style('magnific-popup-style');
 
-wp_register_style('font-awesome-style', get_stylesheet_directory_uri() . '/assets/css/font-awesome.css', array(), '1');
-		wp_enqueue_style('font-awesome-style');
+//wp_register_style('font-awesome-style', get_stylesheet_directory_uri() . '/assets/css/font-awesome.css', array(), '1');
+		//wp_enqueue_style('font-awesome-style');
 
-wp_register_style('our-team-style', get_stylesheet_directory_uri() . '/assets/css/our-team.css', array(), '1.50');
+wp_register_style('our-team-style', get_stylesheet_directory_uri() . '/assets/css/our-team.css', array(), '1.51');
 		wp_enqueue_style('our-team-style');
 
 wp_enqueue_script( 'bootstrap-script', get_stylesheet_directory_uri() . '/assets/js/bootstrap.js', array ( 'jquery' ), 1.16, true);
 
-wp_enqueue_script( 'jquery-easing-script', get_stylesheet_directory_uri() . 'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js', array ( 'jquery' ), 1.11, true);
+//wp_enqueue_script( 'jquery-easing-script', get_stylesheet_directory_uri() . '/assests/js/jquery-easing-min.js', array ( 'jquery' ), 1.13, true);
 
-wp_enqueue_script( 'scroll-reveal-script', get_stylesheet_directory_uri() . '/assets/js/scrollreveal.js', array ( 'jquery' ), 1.11, true);
+//wp_enqueue_script( 'scroll-reveal-script', get_stylesheet_directory_uri() . '/assets/js/scrollreveal.js', array ( 'jquery' ), 1.11, true);
 
-wp_enqueue_script( 'magnific-popup-script', get_stylesheet_directory_uri() . '/assets/js/jquery.magnific-popup.js', array ( 'jquery' ), 1.11, true);
+//wp_enqueue_script( 'magnific-popup-script', get_stylesheet_directory_uri() . '/assets/js/jquery.magnific-popup.js', array ( 'jquery' ), 1.11, true);
 
-wp_enqueue_script( 'our-team-script', get_stylesheet_directory_uri() . '/assets/js/our-team.js', array ( 'jquery' ), 1.11, true);
+//wp_enqueue_script( 'our-team-script', get_stylesheet_directory_uri() . '/assets/js/our-team.js', array ( 'jquery' ), 1.11, true);
 
 
 $id = $wp_query->get_queried_object_id();
