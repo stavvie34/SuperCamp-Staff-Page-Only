@@ -503,6 +503,8 @@ Hover Tests
 6. Modal
 --------------------*/
 
+/*
+
 .modal-content {
     border-radius: 0;
 }
@@ -547,7 +549,7 @@ Hover Tests
     padding: 5px 10px;
 }
 
-
+*/
 
 @media (min-width:768px) {
     .navbar-default {
@@ -968,9 +970,11 @@ img::-moz-selection {
 	position: static !important;
 }
 
+/*
 .modal {
 	top: 70px;
 }
+*/
 
 #contact > div > div > div > h2
 {
