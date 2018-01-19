@@ -84,7 +84,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-4 text-center">
-				<div class="ch-item ch-img-SDones-lg" style="text-align: center;">
+				<div class="ch-item ch-img-SDones-lg" data-toggle="modal" data-target="#Modal-sdones" style="text-align: center; cursor: pointer">
 					<div class="ch-info">
 						<h3>Sophia Dones</h3>
 						<hr class="hr-small">
@@ -95,7 +95,7 @@
 				<p class="text-faded" style="padding-bottom: 25px;">Customer Support</p>
 			</div>
 			<div class="col-sm-4 text-center">
-				<div class="ch-item ch-img-CFoster-lg" style="text-align: center;">
+				<div class="ch-item ch-img-CFoster-lg" data-toggle="modal" data-target="#Modal-cfoster" style="text-align: center; cursor: pointer">
 					<div class="ch-info">
 						<h3>Cheyenne Foster</h3>
 						<hr class="hr-small">
@@ -106,7 +106,7 @@
 				<p class="text-faded" style="padding-bottom: 25px;">Curriculum Developer and Lead Facilitator</p>
 			</div>
 			<div class="col-sm-4 text-center">
-				<div class="ch-item ch-img-SFoster-lg" data-toggle="modal" data-target="#modal-sfoster" style="text-align: center; cursor: pointer">
+				<div class="ch-item ch-img-SFoster-lg" data-toggle="modal" data-target="#Modal-sfoster" style="text-align: center; cursor: pointer">
 					<div class="ch-info">
 						<h3>Skyler Foster</h3>
 						<hr class="hr-small">
@@ -141,7 +141,7 @@
 				<p class="text-faded" style="padding-bottom: 25px;">HR Specialist</p>
 			</div>
 			<div class="col-sm-6 col-md-3 text-center">
-				<div class="ch-item ch-img-CSmith-lg" style="text-align: center;">
+				<div class="ch-item ch-img-CSmith-lg" data-toggle="modal" data-target="#Modal-csmith" style="text-align: center; cursor: pointer">
 					<div class="ch-info">
 						<h3>Charles Smith</h3>
 						<hr class="hr-small">
@@ -152,7 +152,7 @@
 				<p class="text-faded" style="padding-bottom: 25px;">Curriculum Developer and Lead Facilitator</p>
 			</div>
 			<div class="col-sm-6 col-md-3 text-center">
-				<div class="ch-item ch-img-TSmith-lg" style="text-align: center;">
+				<div class="ch-item ch-img-TSmith-lg" data-toggle="modal" data-target="#Modal-tsmith" style="text-align: center; cursor: pointer">
 					<div class="ch-info">
 						<h3>Tenissa Smith</h3>
 						<hr class="hr-small">
@@ -166,6 +166,49 @@
 	</div>
 </section>
 
+<!-- Modal for Sophia Dones -->
+<div id="Modal-sdones" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Sophia Dones">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2 class="modal-title" id="myModalLabel">Sophia Dones</h2>
+				</div>
+            </div>
+			<div class="modal-body">
+				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2017/05/SDones-2.jpg" alt="Sophia Dones">
+				<div>
+					<span class="badge badge-primary">Customer Support</span>
+					<p>Sophia Dones joined Quantum Learning in 2006. With an eagerness to learn she worked in various roles since her start as receptionist. Over the last few years Sophia has enjoyed working in the Finance Department as a Billing Specialist. In addition to this role she also serves as Customer Support offering assistance to families who participate in SuperCamp. Interests include spending time with her two children, music, and traveling.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal for Cheyenne Foster -->
+<div id="Modal-cfoster" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Cheyenne Foster">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2 class="modal-title" id="myModalLabel">Cheyenne Foster</h2>
+				</div>
+            </div>
+			<div class="modal-body">
+				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2017/05/CFoster-7.jpg" alt="Cheyenne Foster">
+				<div>
+					<span class="badge badge-primary">Curriculum Developer</span>
+					<span class="badge badge-primary">Lead Facilitator</span>
+					<p>Dr. Cheyenne Foster has been with QLN/SuperCamp for 11 years as a Lead Facilitator, Site Administrator, and Curriculum Developer. She earned her B.A. in Early Childhood Education, and holds a M.Ed. in Diversified Educational Practices and M.Ed. in Curriculum Development and Instruction. Her love for lifelong learning put her on the path to earn her doctorate as a Naturopathic Practitioner, and she is currently finishing a Master Degree in Professional Counseling. Cheyenne is a full-time employee at Quantum Learning Network designing curriculum, training staff, and facilitating programs. When she is not working with QLN, she consults as a life skills specialist and trauma interventionist. Her passion is supporting teens and their families with improving their family dynamic, and supporting teachers with curriculum design and classroom management. In her free time Cheyenne loves to spend time outside with her family, work with essential oils, and run half marathons at Disneyland.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
 <!-- Modal for Skyler Foster -->
 <div id="Modal-sfoster" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Skyler Foster">
 	<div class="modal-dialog" role="document">
@@ -178,7 +221,7 @@
             </div>
 			<div class="modal-body">
 				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2017/05/SFoster-2.jpg" alt="Skyler Foster">
-				<div style="margin-top: -2.0em">
+				<div>
 					<span class="badge badge-primary">Logistics Administrator</span>
 					<p>As the Logistics Administrator Skyler focuses on QLN program logistics, procurement, and financial analysis. SuperCamp specifics include negotiating site contracts and overseeing strategic logistics for SuperCamp programs. Skyler attended SuperCamp as a camper in 2009 and 2010, was an Office Coordinator in 2016, and joined QLN full-time in 2017. Skyler is currently obtaining his Bachelor’s degree in Business Administration with an emphasis in Information Technology and in the future plans on pursuing a Masters of Linguistics. In his free time he enjoys playing D&amp;D and knitting while cuddled up with his cat Izzy the Pirate.</p>
 				</div>
@@ -199,34 +242,11 @@
             </div>
 			<div class="modal-body">
 				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2017/01/MKennedy-6.jpg" alt="Megan Kennedy">
-				<div style="margin-top: -2.0em">
+				<div>
 					<span class="badge badge-primary">HR Specialist</span>
 					<span class="badge badge-primary">Facilitator</span>
 					<p>Megan joined Quantum Learning Network in 2014 as a full-time employee. As an HR Specialist, she supports with recruiting, hiring, placing, and training staff for SuperCamp and Quantum Learning Education programs. As a facilitator, she has been to stateside and international programs. Megan received her MA in Higher Education Leadership from the University of San Diego and her BA in Communication Studies from James Madison University. Since 2008, she has assisted in the personal development of students and adults by facilitating programs for teenagers, college students, and women’s groups, as well as leading stateside and international alternative break programs. She has a strong desire to support the personal growth of youth and believes the youth have the power to inspire positive change in the world by first transforming themselves. In her spare time Megan likes to attend farmers markets, watch sunsets on the beach, and spend time outdoors.</p>
 				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Modal for portfolio item 2 -->
-<div id="Modal-2" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Modal-label-2">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">×</span>
-				</button>
-				<h4 id="Modal-label-2" class="modal-title">Charles Smith</h4>
-			</div>
-			<div class="modal-body">
-				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2016/11/Charles3.jpg" alt="Charles Smith">
-				<div class="modal-works modal-works-title1">Curriculum Developer</div>
-				<div class="modal-works">Lead Facilitator</div>
-				<p>Charles received his BA in Liberal Arts and Science/Mathematics with a concentration in Secondary Education from Ashford University in Iowa. He also has a Master’s of Science specializing in Brain-based Teaching and Learning from Nova Southeastern University in Florida. He taught high school mathematics in South Holland Illinois for nine years, and led teacher trainings while at his school. He has facilitated SuperCamp programs in the U.S., Thailand, Bali, Hong Kong, and Singapore. He is currently a full-time facilitator and curriculum developer for Quantum Learning Network.</p>
-			</div>
-			<div class="modal-footer">
-				<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
 			</div>
 		</div>
 	</div>
@@ -244,8 +264,7 @@
             </div>
 			<div class="modal-body">
 				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2016/11/Alex.jpg" alt="Alex Lee">
-				<!-- <div class="modal-works">HR Specialist</div> -->
-				<div style="margin-top: -2.0em">
+				<div>
 					<span class="badge badge-primary">HR Specialist</span>
 					<p>Alex joined the QLN team in 2016. He is the direct point of contact for Team Leaders, and plays an integral part in staffing. Alex has received his International Baccalaureate diploma, an A.S. in Mathematics and Sciences, and is currently pursuing a B.S. in Biological Sciences. He enjoys camping, surfing, and woodworking. Alex joined the QLN team in 2016. He is the direct point of contact for Team Leaders, and plays an integral part in staffing. Alex has received his International Baccalaureate diploma, an A.S. in Mathematics and Sciences, and is currently pursuing a B.S. in Biological Sciences. He enjoys camping, surfing, and woodworking.</p>
 				</div>
@@ -254,68 +273,44 @@
 	</div>
 </div>
 
-<!-- Modal for portfolio item 5 -->
-<div id="Modal-5" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Modal-label-5">
+<!-- Modal for Charles Smith -->
+<div id="Modal-csmith" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Charles Smith">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">×</span>
-				</button>
-				<h4 id="Modal-label-5" class="modal-title">Tenissa Smith</h4>
+				<div>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2 class="modal-title" id="myModalLabel">Charles Smith</h2>
+				</div>
+            </div>
+			<div class="modal-body">
+				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2016/11/Charles3.jpg" alt="Charles Smith">
+				<div>
+					<span class="badge badge-primary">Curriculum Developer</span>
+					<span class="badge badge-primary">Lead Facilitator</span>
+					<p>Charles received his BA in Liberal Arts and Science/Mathematics with a concentration in Secondary Education from Ashford University in Iowa. He also has a Master’s of Science specializing in Brain-based Teaching and Learning from Nova Southeastern University in Florida. He taught high school mathematics in South Holland Illinois for nine years, and led teacher trainings while at his school. He has facilitated SuperCamp programs in the U.S., Thailand, Bali, Hong Kong, and Singapore. He is currently a full-time facilitator and curriculum developer for Quantum Learning Network.</p>
+				</div>
 			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal for Tenissa Smith -->
+<div id="Modal-tsmith" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Tenissa Smith">
+	<div class="modal-dialog" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2 class="modal-title" id="myModalLabel">Tenissa Smith</h2>
+				</div>
+            </div>
 			<div class="modal-body">
 				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2016/11/Tenissa.jpg" alt="Tenissa Smith">
-				<div class="modal-works">Customer Service Manager</div>
-				<p>Tenissa works directly with the parents of the campers attending SuperCamp. She trains Site Administrators and Site Counselors on camper pertinent information systems, as well as customer service techniques. Her team keeps us up to date on camper information and needs. Tenissa joined QLN in 2009 and has since earned both a Bachelor’s degree in Sociology and Master’s degree in Psychology. She enjoys spending time with family, writing, and being outdoors.</p>
-			</div>
-			<div class="modal-footer">
-				<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Modal for portfolio item 6 -->
-<div id="Modal-6" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Modal-label-6">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">×</span>
-				</button>
-				<h4 id="Modal-label-6" class="modal-title">Cheyenne Foster</h4>
-			</div>
-			<div class="modal-body">
-				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2017/05/CFoster-7.jpg" alt="Cheyenne Foster">
-				<div class="modal-works modal-works-title1">Curriculum Developer</div>
-				<div class="modal-works">Lead Facilitator</div>
-				<p>Dr. Cheyenne Foster has been with QLN/SuperCamp for 11 years as a Lead Facilitator, Site Administrator, and Curriculum Developer. She earned her B.A. in Early Childhood Education, and holds a M.Ed. in Diversified Educational Practices and M.Ed. in Curriculum Development and Instruction. Her love for lifelong learning put her on the path to earn her doctorate as a Naturopathic Practitioner, and she is currently finishing a Master Degree in Professional Counseling. Cheyenne is a full-time employee at Quantum Learning Network designing curriculum, training staff, and facilitating programs. When she is not working with QLN, she consults as a life skills specialist and trauma interventionist. Her passion is supporting teens and their families with improving their family dynamic, and supporting teachers with curriculum design and classroom management. In her free time Cheyenne loves to spend time outside with her family, work with essential oils, and run half marathons at Disneyland.</p>
-			</div>
-			<div class="modal-footer">
-				<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Modal for portfolio item 8 -->
-<div id="Modal-8" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Modal-label-8">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">×</span>
-				</button>
-				<h4 id="Modal-label-8" class="modal-title">Sophia Dones</h4>
-			</div>
-			<div class="modal-body">
-				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2017/05/SDones-2.jpg" alt="Sophia Dones">
-				<div class="modal-works">Customer Support</div>
-				<p>Sophia Dones joined Quantum Learning in 2006. With an eagerness to learn she worked in various roles since her start as receptionist. Over the last few years Sophia has enjoyed working in the Finance Department as a Billing Specialist. In addition to this role she also serves as Customer Support offering assistance to families who participate in SuperCamp. Interests include spending time with her two children, music, and traveling.</p>
-			</div>
-			<div class="modal-footer">
-				<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+				<div>
+					<span class="badge badge-primary">Customer Service Manager</span>
+					<p>Tenissa works directly with the parents of the campers attending SuperCamp. She trains Site Administrators and Site Counselors on camper pertinent information systems, as well as customer service techniques. Her team keeps us up to date on camper information and needs. Tenissa joined QLN in 2009 and has since earned both a Bachelor’s degree in Sociology and Master’s degree in Psychology. She enjoys spending time with family, writing, and being outdoors.</p>
+				</div>
 			</div>
 		</div>
 	</div>
