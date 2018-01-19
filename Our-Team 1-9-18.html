@@ -106,7 +106,7 @@
 				<p class="text-faded" style="padding-bottom: 25px;">Curriculum Developer and Lead Facilitator</p>
 			</div>
 			<div class="col-sm-4 text-center">
-				<div class="ch-item ch-img-SFoster-lg" style="text-align: center;">
+				<div class="ch-item ch-img-SFoster-lg" data-toggle="modal" data-target="#modal-sfoster" style="text-align: center; cursor: pointer">
 					<div class="ch-info">
 						<h3>Skyler Foster</h3>
 						<hr class="hr-small">
@@ -119,7 +119,7 @@
 		</div>
 		<div class="row">
 			<div class="col-sm-6 col-md-3 text-center">
-				<div class="ch-item ch-img-MKennedy-lg" style="text-align: center;">
+				<div class="ch-item ch-img-MKennedy-lg" data-toggle="modal" data-target="#Modal-mkennedy" style="text-align: center; cursor: pointer">
 					<div class="ch-info">
 						<h3>Megan Kennedy</h3>
 						<hr class="hr-small">
@@ -130,7 +130,7 @@
 				<p class="text-faded" style="padding-bottom: 25px;">HR Specialist and Facilitator</p>
 			</div>
 			<div class="col-sm-6 col-md-3 text-center">
-				<div class="ch-item ch-img-ALee-lg" data-toggle="modal" data-target="#Modal-alee" style="text-align: center">
+				<div class="ch-item ch-img-ALee-lg" data-toggle="modal" data-target="#Modal-alee" style="text-align: center; cursor: pointer">
 					<div class="ch-info">
 						<h3>Alex Lee</h3>
 						<hr class="hr-small">
@@ -139,7 +139,6 @@
 				</div>
 				<h4 style="margin-bottom: 0px; margin-top: 25px; color: #fff;">Alex Lee</h4>
 				<p class="text-faded" style="padding-bottom: 25px;">HR Specialist</p>
-
 			</div>
 			<div class="col-sm-6 col-md-3 text-center">
 				<div class="ch-item ch-img-CSmith-lg" style="text-align: center;">
@@ -167,24 +166,44 @@
 	</div>
 </section>
 
-<!-- Modal for portfolio item 1 -->
-<div id="Modal-1" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Modal-label-1">
+<!-- Modal for Skyler Foster -->
+<div id="Modal-sfoster" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Skyler Foster">
 	<div class="modal-dialog" role="document">
 		<div class="modal-content">
 			<div class="modal-header">
-				<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">×</span>
-				</button>
-				<h4 id="Modal-label-1" class="modal-title">Megan Kennedy</h4>
+				<div>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2 class="modal-title" id="myModalLabel">Skyler Foster</h2>
+				</div>
+            </div>
+			<div class="modal-body">
+				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2017/05/SFoster-2.jpg" alt="Skyler Foster">
+				<div style="margin-top: -2.0em">
+					<span class="badge badge-primary">Logistics Administrator</span>
+					<p>As the Logistics Administrator Skyler focuses on QLN program logistics, procurement, and financial analysis. SuperCamp specifics include negotiating site contracts and overseeing strategic logistics for SuperCamp programs. Skyler attended SuperCamp as a camper in 2009 and 2010, was an Office Coordinator in 2016, and joined QLN full-time in 2017. Skyler is currently obtaining his Bachelor’s degree in Business Administration with an emphasis in Information Technology and in the future plans on pursuing a Masters of Linguistics. In his free time he enjoys playing D&amp;D and knitting while cuddled up with his cat Izzy the Pirate.</p>
+				</div>
 			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal for Megan Kennedy -->
+<div id="Modal-mkennedy" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Megan Kennedy">
+	<div class="modal-dialog modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header">
+				<div>
+					<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+					<h2 class="modal-title" id="myModalLabel">Megan Kennedy</h2>
+				</div>
+            </div>
 			<div class="modal-body">
 				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2017/01/MKennedy-6.jpg" alt="Megan Kennedy">
-				<div class="modal-works modal-works-title1">HR Specialist</div>
-				<div class="modal-works">Facilitator</div>
-				<p>Megan joined Quantum Learning Network in 2014 as a full-time employee. She is a SuperCamp facilitator and is involved with recruiting, hiring, placing, and training staff for SuperCamp and Quantum Learning Education programs. Megan received her MA in Higher Education Leadership from the University of San Diego and her BA in Communication Studies with a minor in HR Development from James Madison University. In her spare time Megan likes to attend farmers markets and TEDx events, watch sunsets on the beach, and spend time outdoors.</p>
-			</div>
-			<div class="modal-footer">
-				<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
+				<div style="margin-top: -2.0em">
+					<span class="badge badge-primary">HR Specialist</span>
+					<span class="badge badge-primary">Facilitator</span>
+					<p>Megan joined Quantum Learning Network in 2014 as a full-time employee. As an HR Specialist, she supports with recruiting, hiring, placing, and training staff for SuperCamp and Quantum Learning Education programs. As a facilitator, she has been to stateside and international programs. Megan received her MA in Higher Education Leadership from the University of San Diego and her BA in Communication Studies from James Madison University. Since 2008, she has assisted in the personal development of students and adults by facilitating programs for teenagers, college students, and women’s groups, as well as leading stateside and international alternative break programs. She has a strong desire to support the personal growth of youth and believes the youth have the power to inspire positive change in the world by first transforming themselves. In her spare time Megan likes to attend farmers markets, watch sunsets on the beach, and spend time outdoors.</p>
+				</div>
 			</div>
 		</div>
 	</div>
@@ -272,28 +291,6 @@
 				<div class="modal-works modal-works-title1">Curriculum Developer</div>
 				<div class="modal-works">Lead Facilitator</div>
 				<p>Dr. Cheyenne Foster has been with QLN/SuperCamp for 11 years as a Lead Facilitator, Site Administrator, and Curriculum Developer. She earned her B.A. in Early Childhood Education, and holds a M.Ed. in Diversified Educational Practices and M.Ed. in Curriculum Development and Instruction. Her love for lifelong learning put her on the path to earn her doctorate as a Naturopathic Practitioner, and she is currently finishing a Master Degree in Professional Counseling. Cheyenne is a full-time employee at Quantum Learning Network designing curriculum, training staff, and facilitating programs. When she is not working with QLN, she consults as a life skills specialist and trauma interventionist. Her passion is supporting teens and their families with improving their family dynamic, and supporting teachers with curriculum design and classroom management. In her free time Cheyenne loves to spend time outside with her family, work with essential oils, and run half marathons at Disneyland.</p>
-			</div>
-			<div class="modal-footer">
-				<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- Modal for portfolio item 7 -->
-<div id="Modal-7" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="Modal-label-7">
-	<div class="modal-dialog" role="document">
-		<div class="modal-content">
-			<div class="modal-header">
-				<button class="close" type="button" data-dismiss="modal" aria-label="Close">
-					<span aria-hidden="true">×</span>
-				</button>
-				<h4 id="Modal-label-7" class="modal-title">Skyler Foster</h4>
-			</div>
-			<div class="modal-body">
-				<img class="img-responsive" style="margin-left: auto; margin-right: auto;" src="http://www.supercamp.com/wp-content/uploads/2017/05/SFoster-2.jpg" alt="Skyler Foster">
-				<div class="modal-works">Logistics Administrator</div>
-				<p>As the Logistics Administrator Skyler focuses on QLN program logistics, procurement, and financial analysis. SuperCamp specifics include negotiating site contracts and overseeing strategic logistics for SuperCamp programs. Skyler attended SuperCamp as a camper in 2009 and 2010, was an Office Coordinator in 2016, and joined QLN full-time in 2017. Skyler is currently obtaining his Bachelor’s degree in Business Administration with an emphasis in Information Technology and in the future plans on pursuing a Masters of Linguistics. In his free time he enjoys playing D&amp;D and knitting while cuddled up with his cat Izzy the Pirate.</p>
 			</div>
 			<div class="modal-footer">
 				<button class="btn btn-default" type="button" data-dismiss="modal">Close</button>
