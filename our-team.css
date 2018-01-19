@@ -509,9 +509,13 @@ Hover Tests
     border-radius: 0;
 }
 
+*/
 .modal-header .close {
     font-size: 30px;
+	margin-top: 3px;
 }
+
+/*
 
 .modal-title {
     text-transform: uppercase;
@@ -529,6 +533,7 @@ Hover Tests
     color: #2D2D2D;
 }
 
+*/
 .modal-works {
     font-size: 11px;
     letter-spacing: 1px;
@@ -549,7 +554,6 @@ Hover Tests
     padding: 5px 10px;
 }
 
-*/
 
 @media (min-width:768px) {
     .navbar-default {
@@ -999,4 +1003,22 @@ color: #fff;
 
 .no-click:active {
   pointer-events: none;
+}
+
+/* Try to fix modal issue */
+.ch-item:before {
+    content: '';
+    display: table;
+}
+
+.badge-primary {
+    color: #fff;
+    background-color: #007bff;
+}
+
+.modal-header {
+	padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
