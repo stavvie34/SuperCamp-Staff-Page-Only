@@ -17,7 +17,7 @@
 .row.slider-buttons {
   position: relative;
   width: 100vw;
-  left: calc(-50vw + 50%);
+  /*left: calc(-50vw + 50%);*/
 }
 
 /* line 19, C:/Users/alexa/OneDrive/Documents/GitHub/SuperCamp-Staff-Page-Only/Style/_main.scss */
@@ -1163,6 +1163,15 @@ a.icon-link {
   .position-card-2 {
     margin-top: 50px;
   }
+}
+
+@media only screen and (max-device-width: 425px) {
+	.countdown3 {
+	margin-top: 100px;
+	}
+	.countdown2 {
+		margin-top: -100px;
+	}
 }
 
 @media only screen and (min-device-width: 769px) {
