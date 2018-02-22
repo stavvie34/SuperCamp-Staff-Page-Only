@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en-GB"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <title>One-Nexus</title>
+
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" href="http://www.onenexus.io/assets/images/favicon.png">
+
+               <link href="app.css" rel="stylesheet">
+    </head>
+
+    <body class="index">
+        
+
+<!-- Parallax layers -->
+<div class="spacestation_layer-stars1" style="opacity: 1;"></div>
+<img src="layer3.svg" class="spacestation_planets" style="opacity: 1;">
+<img src="layer6.svg" class="spacestation_layer-rocket">
+
+<!-- Simulated Document Body -->
+<div class="homepage_wrapper">
+
+    <div class="spacestation" data-module="spacestation">
+        <div class="spacestation_content" style="opacity: 1;">
+            <div class="logo">
+                <img src="logo-light.png" alt="One Nexus Logo">
+            </div>
+            <h2 class="spacestation_tagline heading-light-uppercase-size-2">
+                A UI Toolkit From Out Of This World
+            </h2>
+        </div>
+
+        <img src="layer4.svg" class="spacestation_layer-sun">
+
+        <img src="layer5.svg" class="spacestation_layer-mountain">
+
+        <img src="layer7.svg" class="spacestation_layer-beacon">
+
+        <img src="layer8.svg" class="spacestation_layer-greenland">
+
+        <img src="layer9.svg" class="spacestation_layer-stardust1">
+
+        <img src="layer10.svg" class="spacestation_layer-stardust2">
+
+        <img src="layer11.svg" class="spacestation_layer-ufo">
+
+        <img src="layer12.svg" class="spacestation_layer-foreground">
+
+        <img src="layer13.svg" class="spacestation_layer-stardust3">
+    </div>
+
+    
+<script async="" defer="defer" src="buttons.js"></script>
+    
+
+    <div id="modulesConfigJSON"></div>
+
+    <div id="overlay" class="overlay" data-module="overlay"></div>
+
+        <script src="jquery-2.js" crossorigin="anonymous"></script>
+
+        <link href="owl.css" rel="stylesheet">
+        <script src="owl.js"></script>
+
+        <link rel="stylesheet" href="font-awesome.css">
+
+        <!-- Load syntax highlighter -->
+        <script src="prism.js"></script>
+        <script src="prism-css.js"></script>
+        <script src="prism-scss.js"></script>
+        <script src="prism-javascript.js"></script>
+        <script src="prism-markup.js"></script>
+            <link href="prism.css" rel="stylesheet">
+        <!-- Handle code indentation -->
+        <script>      
+            $('pre code').each(function(i, block) {
+                var lines = block.innerText.split('\n');
+
+                if (lines[0] === '') {
+                    lines.shift()
+                }
+
+                var matches = /^[\s\t]+/.exec(lines[0]);
+    
+                if (matches) {
+                    var indentation = matches[0];
+                }
+
+                if (indentation) {
+                    lines = lines.map(function(line) {
+                        line = line.replace(indentation, '')
+                        return line.replace(/\t/g, '    ')
+                    });
+
+                    block.textContent = lines.join('\n').trim();
+                }
+            });
+        </script>
+        <!-- Botch styles -->
+        <style>
+            pre[class*="language"] {
+                max-height: 600px;
+            }
+            pre[class*="language"] code {
+                background: inherit;
+            }
+            pre.border {
+                border-bottom: 6px solid rgba(0,0,0,0.075);
+                margin-top: 0;
+            }
+        </style>
+
+            <script src="app.js"></script>
+            <script src="LivIconsEvo.js"></script>
+            <script src="LivIconsEvo_002.js"></script>
+            <script src="LivIconsEvo_003.js"></script>
+</body></html>

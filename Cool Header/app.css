@@ -1,0 +1,327 @@
+@import url(../../styles/flickity.css);
+@import url(http://fonts.googleapis.com/css?family=Raleway:100,300,700,900);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,700);
+@keyframes spinner-animation {
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+		transform: rotate(360deg)
+	}
+}
+
+/*! normalize-scss | MIT/GPLv2 License | bit.ly/normalize-scss */
+
+
+body {
+	margin: 0
+}
+
+
+.spacestation,
+[class*="spacestation-"] {
+	z-index: 0;
+	width: 100%;
+	height: 0;
+	padding-top: 90%;
+	overflow: hidden
+}
+
+@media (min-width: 940px) {
+	.spacestation,
+	[class*="spacestation-"] {
+		padding-top: 70%
+	}
+}
+
+.spacestation_content,
+[class*="spacestation_content-"] {
+	position: absolute;
+	top: 32vw;
+	width: 100%;
+	text-align: center;
+	z-index: 0;
+	padding: 0 2em
+}
+
+@media (min-width: 940px) {
+	.spacestation_content,
+	[class*="spacestation_content-"] {
+		-ms-transform-origin: 0 0;
+		transform-origin: 0 0;
+		top: 65vmax;
+		transform: translateZ(-5px) scale(6)
+	}
+}
+
+.spacestation_content .logo,
+[class*="spacestation_content-"] .logo {
+	text-align: center;
+	width: 340px;
+	margin: auto;
+	max-width: 65%
+}
+
+.spacestation_content .logo img,
+[class*="spacestation_content-"] .logo img {
+	height: auto
+}
+
+.spacestation_tagline,
+[class*="spacestation_tagline-"] {
+	color: white;
+	letter-spacing: 0.12em;
+	margin-top: 1.75em;
+	opacity: 0.8;
+	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.75)
+}
+
+.spacestation_planets,
+[class*="spacestation_planets-"] {
+	position: fixed;
+	pointer-events: none;
+	top: 0;
+	width: 100%;
+	z-index: 0
+}
+
+.spacestation_layer,
+[class*="spacestation_layer-"] {
+	position: absolute;
+	pointer-events: none;
+	-ms-transform-origin: 0 0;
+	transform-origin: 0 0
+}
+
+@media (max-width: 720px) {
+	.spacestation_layer,
+	[class*="spacestation_layer-"] {
+		display: none !important
+	}
+}
+
+[class*="spacestation_layer-"][class*="-stars"] {
+	top: 0;
+	left: 0;
+	z-index: -1;
+	height: 100%;
+	width: 100%;
+	background-size: cover;
+	z-index: 0
+}
+
+[class*="spacestation_layer-"][class*="-stars1"] {
+	background-image: url("../../images/spacestation/layer1.svg");
+	background-attachment: fixed
+}
+
+[class*="spacestation_layer-"][class*="-stars2"] {
+	background-position: 5vw 0;
+	background-image: url("../../images/spacestation/layer2.svg")
+}
+
+[class*="spacestation_layer-"][class*="-rocket"] {
+	position: fixed;
+	top: 5vw;
+	left: 10%;
+	width: 10%;
+	-ms-transform-origin: 35vw 35vw;
+	transform-origin: 35vw 35vw;
+	animation: spin 20s 1 forwards
+}
+
+[class*="spacestation_layer-"][class*="-sun"] {
+	top: 215vw;
+	left: 286%;
+	width: 25%;
+	transform: translateZ(-6px) scale(7)
+}
+
+[class*="spacestation_layer-"][class*="-mountain"] {
+	top: 90vw;
+	left: 0;
+	width: 60%;
+	transform: translateZ(-4px) scale(5)
+}
+
+[class*="spacestation_layer-"][class*="-beacon"] {
+	top: -170vw;
+	left: 450%;
+	width: 8%;
+	transform: translateZ(-6px) scale(7)
+}
+
+[class*="spacestation_layer-"][class*="-greenland"] {
+	top: 80vw;
+	width: 100%;
+	transform: translateZ(-1.75px) scale(2.75)
+}
+
+[class*="spacestation_layer-"][class*="-stardust1"] {
+	top: 79vw;
+	left: 150%;
+	width: 18%;
+	transform: translateZ(-1.3px) scale(2.3)
+}
+
+[class*="spacestation_layer-"][class*="-stardust2"] {
+	top: 60vw;
+	left: 32%;
+	width: 18%;
+	transform: translateZ(-1px) scale(2)
+}
+
+[class*="spacestation_layer-"][class*="-ufo"] {
+	top: 33vw;
+	left: 50%;
+	width: 30%;
+	transform: translateZ(-.75px) scale(1.75)
+}
+
+@media (max-width: 1200px) {
+	[class*="spacestation_layer-"][class*="-ufo"] {
+		display: none !important
+	}
+}
+
+[class*="spacestation_layer-"][class*="-foreground"] {
+	top: 72vw;
+	width: 100%;
+	transform: translateZ(-.25px) scale(1.25)
+}
+
+[class*="spacestation_layer-"][class*="-stardust3"] {
+	top: 35vw;
+	width: 100%;
+	transform: translateZ(.3px) scale(.7)
+}
+
+[class*="spacestation-"][class*="-outsideViewport"] .spacestation_content,
+[class*="spacestation-"][class*="-outsideViewport"] [class*="spacestation_content-"],
+[class*="spacestation-"][class*="-outsideViewport"] .spacestation_layer,
+[class*="spacestation-"][class*="-outsideViewport"] [class*="spacestation_layer-"] {
+	-ms-transform: none !important;
+	transform: none !important
+}
+
+
+
+
+
+
+.homepage_wrapper,
+[class*="homepage_wrapper-"] {
+	position: relative
+}
+
+@media (min-width: 940px) {
+	.homepage_wrapper,
+	[class*="homepage_wrapper-"] {
+		height: 100vh;
+		overflow-x: hidden;
+		overflow-y: scroll;
+		perspective: 1px;
+		perspective-origin: 0 0
+	}
+}
+
+
+
+
+.header .logo,
+[class*="header-"] .logo,
+.header [class*="logo-"],
+[class*="header-"] [class*="logo-"],
+.header .navigation,
+[class*="header-"] .navigation,
+.header [class*="navigation-"],
+[class*="header-"] [class*="navigation-"] {
+	display: table-cell;
+	vertical-align: middle
+}
+
+
+
+[class*="-fixed"][class*="header-"][class*="-sticky"] .logo img,
+[class*="-fixed"][class*="header-"][class*="-sticky"] [class*="logo-"] img {
+	height: 28px
+}
+
+[class*="header-"][class*="-sticky"] .logo img,
+[class*="header-"][class*="-sticky"] [class*="logo-"] img {
+	transition: height .4s
+}
+
+
+
+
+
+.logo,
+[class*="logo-"] {
+	text-align: left;
+	color: #fff;
+	font-size: 1.5em;
+	padding: 0
+}
+
+.logo a,
+[class*="logo-"] a {
+	display: inline-block;
+	color: #fff
+}
+
+.logo a:hover,
+[class*="logo-"] a:hover {
+	text-decoration: none
+}
+
+.logo img,
+[class*="logo-"] img {
+	display: inline-block;
+	height: 38px;
+	vertical-align: middle
+}
+
+
+
+
+[class*="heading-"][class*="-size-2"] {
+	font-size: .83em
+}
+
+@media screen and (min-width: 460px) {
+	[class*="heading-"][class*="-size-2"] {
+		font-size: calc(.83em + 0 * ((100vw - 460px) / (480 / 10)))
+	}
+}
+
+@media screen and (min-width: 940px) {
+	[class*="heading-"][class*="-size-2"] {
+		font-size: .83em
+	}
+}
+
+
+img {
+	display: block;
+	max-width: 100%
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg)
+	}
+	100% {
+		transform: rotate(180deg)
+	}
+}
+
+@keyframes scroll {
+	100% {
+		background-position: 1000px 0
+	}
+}
+
+body {
+	background-color: #000120
+}
